@@ -3,7 +3,7 @@
 👉 We are considering the file at 
 
 ```
-/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-1/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/README.md 
+/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/README.md 
 ```
 to be the relevant `README`.
 
