@@ -1,0 +1,103 @@
+In this section, we provide background information on U.S. auto insurance and the monitoring program we study. We also describe our datasets.
+
+\subsection{Auto Liability Insurance\label{subsec:bg_pricing}}
+
+Auto insurers in the U.S. collected \$431 billion dollars of premiums in 2024.\footnote{Source: \href{https://content.naic.org/article/naic-releases-2024-market-share-data}{NAIC 2025 report}. This number includes commercial (\$72 billion) and private passenger auto insurance (\$359 billion). Within the latter, third-party liability make up a majority at \$182 billion.} Our focus is the largest segment: private passenger third-party liability insurance, which covers injuries and property damage inflicted on other parties in an at-fault accident.
+The contract specifies an indemnity limit with no deductibles, so that the insured consumer would be covered up to that limit.
+In all states we study, liability insurance is mandatory, with the minimum required coverage ranging from \$25,000 to \$100,000.\footnote{All states that we study follow an ``at-fault'' tort system and mandate liability insurance. In practice, liability insurance is specified by three coverage limits. For example, 20/40/10 means that, in an accident, the insurer covers liability for bodily injuries up to \$40,000 overall, but no more than \$20,000 per victim; it also covers liability for property damage (cars or other infrastructure) for up to \$10,000. We quote the highest number here.}
+
+\paragraph{Pricing}
+Insurance prices are heavily regulated. Firms
+collect large amounts of consumer information in risk-rating,
+and are required to publish filings that detail their pricing rules.\footnote{Except in Wyoming, which is not in our dataset.}
+In general, a pricing rule can be summarized as follows, where the price ($p$) of a policy is:
+\begin{align}
+p = &\text{ base rate}\times\text{characteristics factor}\times\text{coverage factor} +\text{loading cost} \label{eq:pricing_def} %markups and fees
+\end{align}
+Within each firm, prices vary by observable characteristics, coverage choice, and time. Base rates vary only by state and time. Characteristic factors include information about the driver (e.g., age, education level), their vehicle (e.g. vehicle safety features), and their home location (e.g., zipcode-level population density) that are verified and cross-referenced among various public and industry databases. They also contain information from claim and credit databases, including records of past at-fault accidents, traffic violations (e.g. DUI, speeding), and financial  records (e.g. delinquency, bankruptcy).
+Choosing a higher coverage scales prices by a positive factor.
+Finally, firms charge a loading cost that includes markups and overhead for operational and marketing expenditures.
+
+Pricing regulations vary by state and time, but a primary goal across the board is to limit third-degree price discrimination: excessively high prices that hurt affordability, and excessively low prices that raise insurers' default risk. In general, ``price optimization'' across consumer segments---beyond risk-rating---is generally not allowed, and is explicitly outlawed in 15 states. We introduce the regulatory price controls pertaining to the monitoring program in more detail when we introduce our pricing model in \Cref{sec:firm_equi}.
+
+\begin{figure}[h]
+\begin{centering}
+\begin{tabular}{ccc}
+\includegraphics[scale=0.1]{\staticpath/fig_1a_static.png} &  & \includegraphics[scale=0.1]{\staticpath/fig_1b_static.png}\tabularnewline
+(a) &  & (b)\tabularnewline
+\includegraphics[scale=0.1]{\staticpath/fig_1c_static.png} &  & \includegraphics[scale=0.1]{\staticpath/fig_1d_static.png}\tabularnewline
+(c) &  & (d)\tabularnewline
+\end{tabular}
+\par\end{centering}
+\caption{Timing Illustration of Auto Insurance and Monitoring Program \label{fig:background}}
+\vspace{0.3cm}
+\end{figure}
+
+\paragraph{Timing and Dynamics}
+\Cref{fig:background} illustrates the timing of new customer interactions with auto insurance in our setting. As shown in panel (a), new customers provide their characteristics at time $t=0$ (``the initial period''). The firm then assigns each customer (also referred to as a \textit{consumer} throughout the paper) a risk class and generates a personalized price menu from which they select a coverage option (or choose to purchase insurance from another firm). Contracts last six months with no long-term commitment. Toward the end of the period (around month five), the firm issues a renewal price menu, and consumers decide whether to stay or switch. The renewal price menu follows the same structure as outlined in \Cref{eq:pricing_def}, albeit with different characteristics factors.\footnote{We model renewal pricing changes carefully in \Cref{sec:econometric-model}, where we separate out the first renewal pricing rules (for both monitored and unmonitored drivers) from subsequent ones. This is because while consumers may see price changes in every renewal due to changes in their observables, the first renewal sees an added change due to the shift from the new-customer pricing algorithm to the renewal one, leading to a typically bigger renewal price change compared to subsequent renewals.}
+
+If an auto accident occurs during the coverage period (\Cref{fig:background}b), the consumer files a claim immediately. After assessment and adjustment, the firm reimburses the consumer based on their chosen coverage level. The claim is then recorded in industry databases and triggers a surcharge at renewal irrespective of whether the consumer stays with the current insurer or switches to another firm.
+
+\paragraph{Dataset 1 - Panel data from an auto insurer}
+
+Our first dataset comes from a national auto insurer in the U.S. This is a panel that spans 2012 to 2016, and covers 23 states. For tractability, we focus only on \emph{single-driver-single-vehicle} insurance policies sold via the direct channel (online or phone) so that the consumer of the insurance policy is also the driver being insured. We observe more than 1 million consumers for an average duration of 2.86 periods (2.98 periods in our Illinois estimation sample)\footnote{The panel is right-censored, but the censoring is plausibly uninformative.}. The date range spans periods before and after the monitoring program was introduced.
+
+At the beginning of each period, we observe a number of individual characteristics for each consumer as outlined in Table \ref{tab:sum_stat_x}.
+We also see the price paid given their coverage and monitoring choice.
+\Cref{tab:sum_stat}a presents summary statistics of prices, coverage levels, and claims. The average consumer is 33 years old, drives a 2005 vehicle, lives in a zip code with an average annual income of \$125 thousands, and has 0.25 recorded at-fault accidents (Table \ref{tab:sum_stat_x}). Per six-month period, the average consumer pays \$398 in liability premium and files 0.04 liability claims (about 1 in eleven years). We also observe their assigned risk class, representing the actuarially-fair price assigned to each consumer excluding the coverage factor, markups, and fees. For the average consumer, this is set at \$270 per period.
+
+\inputifexists{\exhibitpath/tab_1}
+
+\paragraph{Dataset 2 - Competitor price menus in Illinois}
+Our structural model and counterfactual exercises require accounting for consumers' outside options both with respect to monitoring and to the choice of insurer.
+To capture the latter, we focus on a single state and augment our main dataset with price menus from the firm's primary competitors. Specifically, we obtain liability coverage quotes offered by the firm's top five competitors in Illinois, ranked by market share.\footnote{We focus on Illinois for three reasons. First, the price menu data significantly expands our dataset, and we choose one state in order to combat the curse of dimensionality in our counterfactual simulations. Second, Illinois featured a change of mandatory minimum plans that provides valuable variation that assists in our model identification. Third, the matching of consumer observables when obtaining competitors' price menus may be imperfect. One way to evaluate this is to also pull price-menu data from Quadrant Information Services for the monitoring firm, and compare that to our observed prices paid for the coverage chosen. Illinois had the best match across all states in squared error terms.}
+The quotes are generated using Quadrant Information Services' proprietary software, which extracts insurers' filed prices across states and consumer segments.
+For each consumer in our dataset, we obtain a set of competing prices by precisely matching their characteristics, the state, and the calendar day of their insurance purchase.
+Table \ref{tab:sum_stat}b reports the resulting quotes for the five most common liability coverage options across competitors. Our structural analyses focus on Competitors 1 and 2, which offer, respectively, the median and lowest average prices among the top five competitors. Together with the monitoring firm, they comprise the top three firms by market share in Illinois.
+
+\subsection{Monitoring Program\label{subsec:data_monitoring}}
+
+Our research focuses on the firm's voluntary monitoring program for new customers.\footnote{In our setting, monitoring was offered as a one-time program for new customers only.} The monitoring process is summarized in Figures \ref{fig:background}c and \ref{fig:background}d. When consumers first arrive, they choose whether to opt in to monitoring as they review the coverage price menu. All consumers are provided with information on the kinds of driving behavior that are tracked and penalized or rewarded---high mileage, driving at night, high speed, and harsh braking---but the exact mapping to discounts is opaque. In addition, the firm offers an opt-in discount on the first-period premium independent of performance. It also spells out the mean and range of the renewal discount that would be applied to all subsequent (renewal) periods.\footnote{The opt-in discount varied between 0, 5, and 10\% over the course of our estimation sample. The average discount was 4\%.
+}
+
+Consumers who opt in receive a simple device via mail within a week. They then have until the end of month five to accumulate some 100-150 days of monitored driving. If completed, the firm evaluates their performance and includes an appropriate renewal discount when giving renewal quotes.\footnote{27\% of drivers who start monitoring do not finish. Our main analysis treats these drivers as unmonitored and jointly consider consumers' decision to \textit{start and finish} monitoring. This is because 97\% of non-finishers drop out during a two-month grace period (no penalty) in which the firm communicates projected renewal discounts to monitored drivers (afterwards, dropping out results in the maximum amount of renewal surcharge). We thus consider non-finishers as if they have reversed their opt-in decision after forming the correct belief about their monitoring outcome. Non-finishers also have a similar risk profile as other opt-out consumers:, when we separate non-finishers from the opt-out group, their average claim count is only 4\% below the latter.
+}
+If an accident occurs, monitoring data do not influence claim reporting, handling, or future premium adjustment. Monitoring continues after any disruptions from the accident.
+During the monitoring period, monitored drivers receive real-time feedback on their performance. Key statistics of recorded trips are posted online. The firm also offers active reminders through media such as text messages, mobile app push notifications, and beeping from the monitoring device when punishable behaviors are recorded.
+
+Nevertheless, monitoring data is \emph{proprietary}. We verify this by confirming that the firm's monitoring information does not appear anywhere in its competitors' price filings. More generally, other firms face many practical hurdles in getting and using monitoring information. First, verifying monitoring outcomes with consumers alone is difficult, labor-intensive, and may be subject to legal liability.\footnote{The privacy policy agreed upon at monitoring opt-in prevents the firm from sharing personally identifiable data.} More importantly, firms may have different preexisting risk assessments, underlying costs, and markups for serving the same type of consumers. This greatly reduces the extent to which competitors can learn about consumer risk using the discount or price charged by the monitoring firm.
+
+The program we analyze is the first to achieve large-scale commercialization in the U.S. While competing programs exist, the most prominent ones were offered by agency-driven insurers and lagged behind ours in terms of technology and adoption rate.\footnote{Based on various marketing announcements, the highest opt-in rate achieved by a competing program was less than 1\% in 2012 and less than 6\% in 2016. In contrast, the \textit{finish} rate of monitoring was already around 15\% for our monitoring program in 2012 (Fig. \ref{fig:app_event_study}a).} In aggregate, monitoring generally took up a small fraction of the market during our research window, estimated to be under 4\% in 2014 and consisted largely of the program that we study \parencite{ptolemus2016}.\footnote{Public filings do contain some information on these programs, but it is difficult to interpret reliably. For instance, \textcite{reimers2019impacts} uses public filings to construct a dataset of the introduction timeline of U.S. auto-insurance monitoring programs. However, the program we analyze is shown to have been introduced up to four years before what our proprietary data suggests across U.S. states.
+The discrepancy is largely due to the various trials and R\&D efforts employed by the firm to fine-tune the structure and technology of its monitoring program.}
+In our structural and counterfactual analysis, we thus abstract away from competing programs.
+
+The industry shifted towards smartphone-based monitoring in the late 2010s and early 2020s. Compared to the device-based program that we study, smartphone-based programs are less accurate but solve the cost bottleneck associated with hardware and signal transmission. Most major insurers have since adopted continuous monitoring models in which the app runs in the background and automatically detects and scores driving trips, though consumers must still opt into the program itself and grant location permissions to their smartphones. The dominant program structures include both short-term ``audition'' models (e.g., 90-day review periods) and ongoing evaluation models that recalculate discounts at each renewal.
+
+\paragraph{Dataset 3 - Monitoring}
+Our data on the firm's monitoring program includes its pricing schedule, consumers' opt-in choices, and realized monitoring scores and renewal discounts for consumers who opted in.
+
+Monitored drivers' performance is summarized by a one-dimensional monitoring score, whose distribution is plotted in \Cref{fig:sum_score_disc}a. The score \textit{increases} with the amount of punishable behavior recorded for a given monitored driver. We interpret this score as the output of a fixed monitoring technology that reveals information about consumers' \emph{future} accident risk, given observations of driving behavior during the monitoring period. Figure \ref{fig:rf-info-bin} illustrates this predictive content by plotting the average claim count in the second period by monitoring status and monitoring score quintile (based on performance in the first period). Compared to unmonitored drivers, those who finish monitoring are 22\% safer. Among finishers, the quintile of their monitoring score strongly predicts their second-period risk, ranging from 60\% better to 40\% worse than the opt-out pool.
+
+The firm's monitoring pricing is discussed in detail in \Cref{sec:firm_equi} as well as in Appendix \ref{sec:app_firm_pricing}. Notably, as we show through an event study summarized in \Cref{fig:app_event_study}b, baseline pricing did not change when the monitoring program was introduced. However, at the end of their first period of insurance, consumers who opted in to monitoring faced different renewal quotes that included performance-based monitoring discounts or surcharges based on their monitoring scores. \Cref{fig:sum_score_disc}b compares the distribution of first-renewal price changes: normalizing the average price change for an unmonitored driver to be one, the average monitored driver received an extra discount of 7\%. Among monitored drivers, those with higher monitoring scores received smaller discounts or higher surcharges (\Cref{fig:score-discount-by-regime}). Moreover, consistent with the firm's upfront communication with consumers at the time of purchase, monitoring discounts and surcharges persisted beyond the first renewal as shown in \Cref{fig:tm_disc_renw}.
+\vspace{0.5cm}
+\begin{figure}[htbp!]
+\centering
+\begin{tabular}{cc}
+\includeifexists[scale=0.14]{\exhibitpath/fig_2a.png} &\hspace{0.05cm} \includeifexists[scale=0.14]{\exhibitpath/fig_2b.png}\tabularnewline
+(a) &\hspace{0.05cm} (b)
+\end{tabular}
+\caption{Monitoring Score and Renewal Discounts \label{fig:sum_score_disc}}
+\vspace{0.1cm}
+\begin{minipage}{\textwidth} % choose width suitably\vspace{0.25cm}
+    {\footnotesize \emph{Notes: }(a) plots the density of the (natural) log of monitoring score for all monitoring finishers. The lower the score the better. Drivers who received a zero score plugged in the device continuously for enough days but did not drive. We ignore these drivers in all subsequent tests. (b) plots the benchmarked (per firm request) distribution of renewal price changes at the first renewal, by monitoring group. 1x represents the average renewal price change factor for the unmonitored group. The one-time monitoring opt-in discount (applied on the first period premium) is taken out in order to isolate the renewal discount for monitored drivers. ``Mon'' and ``UnMon'' are monitored and unmonitored groups, while ``Mon (pre-disc)'' is the renewal price change for monitored drivers without the monitoring discount.\par}
+\end{minipage}
+\vspace{0.5cm}
+
+\includeifexists[scale=0.8]{\exhibitpath/fig_3.png}
+\caption{Comparison of subsequent claim cost across monitoring groups \label{fig:rf-info-bin}}
+\vspace{0.1cm}
+\begin{minipage}{\textwidth} % choose width suitably
+    {\footnotesize \emph{Notes: }This is a bin-scatter plot comparing average claim counts in the second period ($t=1$, after monitoring ends) across various monitoring groups. The benchmark is the unmonitored pool, which is the ``opt-out'' group. Group ``opt-in'' includes all monitored drivers that finished the program per the definition in section \ref{subsec:data_monitoring}. Groups ``1'' to ``5'' split the ``finish'' group based on the quintile of drivers' monitoring scores. A lower monitoring score means better performance.\par}
+\end{minipage}
+\end{figure}
+\clearpage

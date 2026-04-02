@@ -1,0 +1,84 @@
+\setcounter{figure}{0}
+\setcounter{table}{0}
+
+\vspace{0.75cm}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.22]{\staticpath/appendix/fig_a1_static}
+\caption{Examples of Telematics Devices in U.S. Auto Insurance \label{fig:eg_device}}
+\begin{minipage}{0.9\textwidth}
+{\footnotesize \emph{Notes:} These are some examples of the in-vehicle telecommunication (or ``telematics'') devices used in monitoring programs in U.S. auto insurance. These devices can be easily installed by plugging them into the on-board diagnostics (OBD) port. The OBD-II specification that these monitoring devices rely on has been mandatory for all cars (passenger cars and light trucks) manufactured or to be sold in the U.S. after 1995. \par}
+\end{minipage}
+\end{figure}
+
+\vspace{0.3cm}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.25]{\staticpath/appendix/fig_a2_static.png}
+\caption{Other Examples of Direct Transactions of Consumer Data \label{fig:eg_dtcd}}
+\begin{minipage}{0.9\textwidth}
+{\footnotesize \emph{Notes:} Examples of direct transactions of consumer data in other settings. The Vitality program from life insurer John Hancock tracks and rewards exercise and health-related behaviors in exchange for discounts on life insurance premiums. Ant Financial incentivizes users to conduct more personal finance transactions through the platform, such as setting up direct deposit or paying utility bills, in exchange for discounts on various borrowing and rental services. The Uber credit card offered much larger incentives for consumers to use it intensively than the transaction fees charged. One of the plausible business rationales is that the transaction data can be linked back to improve Uber's main businesses in ride sharing and in food delivery. \par}
+\end{minipage}
+\end{figure}
+
+\inputifexists{\exhibitpath/appendix/tab_a1.tex}
+
+\begin{figure}[H]
+\centering
+\includeifexists[scale=0.88]{\exhibitpath/appendix/fig_a3.png}
+\caption{Persistence of Monitoring Discount \label{fig:tm_disc_renw}}
+\begin{minipage}{0.9\textwidth}
+{\footnotesize \emph{Notes:} This graph plots the empirical progression of monitoring discount for all monitoring finishers in one state that stayed with the Firm until at least the end of the 5th periods (so we observe monitoring discount in the renewal quote for the 6th period). The benchmark is monitoring discount in the first renewal quote ($t=0$). Fluctuations and noises are due to ex-post adjustments. Monitored drivers can report mistakes in their records and have their discount adjusted. \par}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includeifexists[scale=0.88]{\exhibitpath/appendix/fig_a4.png}
+\caption{Renewal Price Claim Surcharge \label{fig:clm_srchg}}
+\begin{minipage}{0.9\textwidth}
+{\footnotesize \emph{Notes:} This graph plots the empirical claim surcharge function for at-fault accidents. Claim surcharge varies with existing violation points and calendar time. 0.1 means 10\% surcharge. This differs from the filed factors because the latter is applied on the base rate only, while this function represents the surcharge percentage on top of overall premium. This is done by regressing renewal price change on violation point last period and current period at-fault claim, controlling for all other observables. \par}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[htbp!]
+\centering
+\includeifexists[scale=0.9]{\exhibitpath/appendix/fig_a5.png}
+\caption{Estimates - dynamic informativeness of monitoring participation\label{fig:rf-info-part}}
+\vspace{0.5cm}
+\includeifexists[scale=0.9]{\exhibitpath/appendix/fig_a6.png}
+\caption{Estimates - dynamic informativeness of monitoring score \label{fig:rf-info-score}}
+\vspace{0.25cm}
+\begin{minipage}{0.9\textwidth}
+	{\footnotesize \emph{Notes: }Figures \ref{fig:rf-info-part} and \ref{fig:rf-info-score} report, in percent increase terms, the estimate for $\theta_{s,t}$ and $\theta_{m,t}$ for renewal periods $t=1$ to $5$ from the following regression: \begin{align}
+C_{it} & =\alpha_{t}+\theta_{m,t}m_{i}+\theta_{s,t}s_{i}+\mathbf{x}_{it}^{\prime}\mathbf{\beta_{t}}+\epsilon_{it}\label{eq:private_info_reg}
+\end{align}
+ Here, $m$ is an indicator for finishing monitoring and $s$ denotes the monitoring scores. The latter is normalized among monitored consumers and set to $0$ for others.     For each $t>0$, we take all drivers who stayed with the firm until at least the end of period $t$. $\theta_{s,t}$ is the coefficient on monitoring score of $i$, and $\theta_{m,t}$ is that on monitoring finish indicator of $i$. Monitoring score is normalized, and defaulted as 0 for unmonitored drivers. So $\theta_{s,t}$ measures the effect of getting a score one standard deviation above the mean during the monitoring period ($t=0$). $\theta_{m,t}$ compares unmonitored drivers with the average monitoring finisher. To further translate these effects into percent increase terms, we divide the estimates by the average claim count in period $t$ of all \emph{monitored} drivers. The horizontal axis represents different regressions for different renewal period $t>0$.
+	Different colors within each $t$ value represent
+	different specifications of control variables ($x_{it}$). The grey (left-most) series represents estimates from regressions with the full set of $x_{it}$; the orange (middle) one includes only claim records revealed since $t=0$; the blue (right) series includes no control. \par}
+\end{minipage}
+\end{figure}
+
+\inputifexists{\exhibitpath/appendix/tab_a3}
+
+\inputifexists{\exhibitpath/appendix/tab_a4}
+
+\inputifexists{\exhibitpath/appendix/tab_a5}
+
+\inputifexists{\exhibitpath/appendix/tab_a6}
+
+\inputifexists{\exhibitpath/appendix/tab_a7}
+
+\inputifexists{\exhibitpath/appendix/tab_a8}
+
+\pagebreak
+
+\inputifexists{\exhibitpath/appendix/tab_a9}
+\inputifexists{\exhibitpath/appendix/tab_a10}
+\inputifexists{\exhibitpath/appendix/tab_a11}
+\inputifexists{\exhibitpath/appendix/tab_a12}
+\inputifexists{\exhibitpath/appendix/tab_a13}
+\inputifexists{\exhibitpath/appendix/tab_a14}
+\inputifexists{\exhibitpath/appendix/tab_a15}
