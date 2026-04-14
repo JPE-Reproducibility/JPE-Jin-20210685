@@ -442,6 +442,7 @@ if(USE_CACHE && file.exists(opt_save_filename)){
   }
   max_row_coarse = 3
   max_row_fine = 2
+  max_row <- max_row_coarse
 
   sequential_step = if (exists("CTF_COARSE_GRID") && CTF_COARSE_GRID) 5000 else 50000
   firm1_params <- c("k0", "k1", "k2", "k2s")
