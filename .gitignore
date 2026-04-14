@@ -159,3 +159,4 @@ TEMPLATE_files/
 /.quarto/
 
 **/*.quarto_ipynb
+.DS_Store
