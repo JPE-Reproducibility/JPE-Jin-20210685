@@ -1,6 +1,18 @@
 using YAML
 using PackageScanner
 
+function rm_git(extract_dir)
+    for (root, dirs, files) in walkdir(extract_dir)
+        if ".git" in dirs
+            git_path = joinpath(root, ".git")
+            @info "Removing git repository: $git_path"
+            rm(git_path, recursive=true, force=true)
+            filter!(d -> d != ".git", dirs)
+            return 0
+        end
+    end
+end
+
 # Read configuration
 vars = YAML.load_file(joinpath(ENV["GITHUB_WORKSPACE"], "_variables.yml"))
 @info "Configuration loaded" vars
@@ -8,10 +20,12 @@ vars = YAML.load_file(joinpath(ENV["GITHUB_WORKSPACE"], "_variables.yml"))
 dest_path = joinpath(ENV["GITHUB_WORKSPACE"], "replication-package")
 
 # ── Remote path: download via public Dropbox link ─────────────────────
-url = get(vars, "dropbox_download_url", nothing)
+url = let u = get(ENV, "DROPBOX_DOWNLOAD_URL", nothing)
+    (isnothing(u) || isempty(u)) ? nothing : u
+end
 
 downloaded_ok = if !isnothing(url)
-    @info "Downloading package from Dropbox link..." url
+    @info "Downloading package from secret Dropbox link..."
     t0 = time()
     try
         run(`curl -fsSL -o package.zip $url`)
@@ -66,6 +80,9 @@ if downloaded_ok && isfile("package.zip")
         @info "Unzipping $pkg_zip..."
         try
             run(`unzip -oq $pkg_zip -d $dest_path`)
+            if isdir(dest_path)
+                rm_git(dest_path)
+            end
         catch e
             @warn "unzip of $pkg_zip exited non-zero" exception=e
         end

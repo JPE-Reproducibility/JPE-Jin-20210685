@@ -14,6 +14,12 @@
 [ADVISORY] `filter(` call not preceded by a comment within 2 lines — consider adding a comment explaining the criterion. (bootstrap_helpers.R, line 124)
   → filter(parameter %in% params, statistic %in% stats) %>%
 
+[ADVISORY] `filter(` call not preceded by a comment within 2 lines — consider adding a comment explaining the criterion. (fig_b3_override.R, line 87)
+  → dplyr::filter(dplyr::n() > 10) |>
+
+[ADVISORY] `filter(` call not preceded by a comment within 2 lines — consider adding a comment explaining the criterion. (fig_b3_override.R, line 93)
+  → dplyr::filter(dplyr::n() > 25) |>
+
 [ADVISORY] `filter(` call not preceded by a comment within 2 lines — consider adding a comment explaining the criterion. (sim_c1_mh_regression.R, line 114)
   → df_reg_save <- filter(df_mh_save, last_renewal_seen >= 2)[c(reg_cols, "clm_acci")] %>% left_join(filter(XY_mat, RENW_CNT == 0))
 
@@ -221,13 +227,7 @@
 [ADVISORY] `filter(` call not preceded by a comment within 2 lines — consider adding a comment explaining the criterion. (get_next_rrev.R, line 28)
   → { sum_rrev_dates_st <- sum_rrev_dates %>% filter(ST_CD == st)
 
-[ADVISORY] `filter(` call not preceded by a comment within 2 lines — consider adding a comment explaining the criterion. (get_fit_cp.R, line 34)
-  → group_by(llambda_bin) %>% filter(n() > 10) %>% ungroup() %>%
-
-[ADVISORY] `filter(` call not preceded by a comment within 2 lines — consider adding a comment explaining the criterion. (get_fit_cp.R, line 38)
-  → filter(n() > 25) %>%
-
-[ADVISORY] `filter(` call not preceded by a comment within 2 lines — consider adding a comment explaining the criterion. (get_fit_cp.R, line 88)
+[ADVISORY] `filter(` call not preceded by a comment within 2 lines — consider adding a comment explaining the criterion. (get_fit_cp.R, line 89)
   → ) %>% group_by(llambda_bin) %>% filter(n() > 10) %>% ungroup() %>%
 
 [ADVISORY] `filter(` call not preceded by a comment within 2 lines — consider adding a comment explaining the criterion. (sim_generate_rf_data.R, line 394)

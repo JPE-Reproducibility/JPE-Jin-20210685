@@ -1,0 +1,49 @@
+# Bootstrap CSVs (except bootstrap-0 point estimates, tracked below)
+data/estimates/model_output/*/results/bootstrap-result-id-[1-9]*.csv
+data/estimates/model_output/*/weights/
+
+# Generated output (recreated by Rscript code/run_all.R)
+output/
+!output/simulated/cached/
+
+# Derived intermediates (recreated at runtime from JSONs)
+data/precomputed/rf/cache/
+data/precomputed/rf/appendix/cache/
+
+# LaTeX build artifacts and compiled PDF
+paper/log/
+paper/*.pdf
+
+# Local trash (not distributed)
+_trash/
+
+# OS
+.DS_Store
+.Rhistory
+
+# Generated intermediate CSVs from c2_get_param_tables.R
+data/estimates/model_output/*.csv
+
+# Simulated data cache (generated at runtime)
+data/simulated/cache/
+
+# Compiled Stan binaries (platform-specific)
+data/estimates/model_output/*/model_main
+data/estimates/model_output/*/model_price
+data/estimates/model_output/*/model_sev
+data/estimates/model_output/*/model_cost
+data/estimates/model_output/*/model_main_2p
+data/estimates/model_output/*/model_main_4p
+data/estimates/model_output/*/model_main_mhhet
+data/estimates/model_output/*/model_cost_mhhet
+code/simulate/functions/estimation/ctf_functions
+to_fix.md
+
+# R1 revision materials (response letter, DUA verification, internal tracking).
+# CONFIDENTIAL — kept local only (this machine). Not tracked, not pushed.
+# History was purged 2026-05-18 via git filter-repo --invert-paths --path _r1/
+# so cross-machine clones don't carry the ~14 MB of NDAs/DUA scans.
+_r1/
+
+# Local Claude Code state
+.claude/

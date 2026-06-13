@@ -1,2 +1,3 @@
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/README.md
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/._README.md
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/__MACOSX/jinvass26_replication_may_19_2016/._COVER_LETTER_AND_CHANGE_SUMMARY.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/COVER_LETTER_AND_CHANGE_SUMMARY.pdf
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/README.md

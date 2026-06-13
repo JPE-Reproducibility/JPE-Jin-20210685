@@ -4,322 +4,160 @@
 
 The package contains:
 
-* 310 files
+* 148 files
 
-* 4 Duplicate files
+* 0 Duplicate files
 * No files larger than 100MB
 * No zero sized (0Kb) files
 
 
 | Filename | Size (MB) | Checksum (MD5) |
 |:---------|----------:|:--------------|
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/tab_1_meta.csv | 0.0 | f45ea8d063f9dfa3d33349711eff05e269f8a45e |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/._.DS_Store | 0.0 | 0bed7e90c2bade9763fa18f1fb4441d31f91c87c |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/._.DS_Store | 0.0 | 0bed7e90c2bade9763fa18f1fb4441d31f91c87c |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/._.DS_Store | 0.0 | 0bed7e90c2bade9763fa18f1fb4441d31f91c87c |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/._.DS_Store | 0.0 | 0bed7e90c2bade9763fa18f1fb4441d31f91c87c |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/._.DS_Store | 0.0 | 0bed7e90c2bade9763fa18f1fb4441d31f91c87c |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/._simulate | 0.0 | 24222a56815ec3648ec846e9d7a3004f268b634a |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c4_data_figures.R | 0.0 | 2b9632aa76ccf3a26ae906bb7dcc07d335990bea |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_cost_mhhet/._results | 0.0 | 544f0c6051b21ebac6d0fc1086f426f3d2130889 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/._tab_2_regression.json | 0.0 | fc89f0820a26c84e86c67845775093c85a706843 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/appendix/._fig_b1b_regression.json | 0.0 | e54fdc96134e53dca291d096ffe63b93c915f519 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/appendix/._fig_c1_regression.json | 0.0 | 81ace11119103debc447965b499ccbdc69a6de9e |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/._fig_6a.csv | 0.0 | bb26780719e46f52b49a7ab1c5fc9293168502df |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/._fig_b3.csv | 0.0 | 769c4557ab8756705610d39e1ea2f11e08d8491f |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/._tab_1_panel_b.csv | 0.0 | 26b456996aea0e4a627478b80087756e5c6c31c4 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/appendix/._fig_b2a.csv | 0.0 | c41db7318c61a26991a678c71ff1339f31b86848 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s0_abstract.tex | 0.0 | b3ee668a0ae6fd0ad13783ba971975f471451f62 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s7_conclusion.tex | 0.0 | 69be13e43281816213657124f16e96203dc39fa8 |
-| /__MACOSX/._Yizhou Jin - jinvass26_replication_mar_29_2026 | 0.0 | 9acf0df6cd3120f63838b5e87cd9afededafb1d5 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/._LICENSE.txt | 0.0 | 7a413416a0ad14a29adbcfa8081f9082d9e554da |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/._README.md | 0.0 | b512ba6c17f0c4876f6a2be94101c1f4e5acd4c9 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/._code | 0.0 | 9bb21d5359048c2d40fa0d718c98acfd23927a2c |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/._data | 0.0 | 60ed1fbf5776ab93b52b863708072ac06fb5a2fd |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/._paper | 0.0 | 84744a94d32ae342934d0b2d07f603af757aa2aa |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/._c1_get_rf_exhibits.R | 0.0 | b4768f234284eea8dd16d173f9407dffd0b606ec |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/._c2_get_param_tables.R | 0.0 | d90f2edd63a1d051efa59c577c4fbd9621376056 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/._c3_get_fitctf_exhibits.R | 0.0 | 113f40f8100f97a5431aa952a60d1b750ce0ea71 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/._config.R | 0.0 | 63824dc67dd65fae0eb6f039d72aac598393b760 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/._functions | 0.0 | c005da478ec375334b9a3b5d396dbe7e946fd674 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/._run_all.R | 0.0 | 0d69766e76d7ccca4be0ecd2a1c681e1a9255371 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/._run_simulated.R | 0.0 | a1b91e9ead87ab462bb7c591ce7ea80351ec7c78 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/._bootstrap_helpers.R | 0.0 | b997989648354a15c392d6f73a69878fb2e41a91 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/._ctf_table_helpers.R | 0.0 | 26ecca3607f9d34e0bfaa9a922bfd6a102e06b43 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/._getX.R | 0.0 | e61ce6182597954e63e5642777d00b749efcf672 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/._helper.R | 0.0 | d269da891a67efdc81890fa8b380ab5effc38c0a |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._functions | 0.0 | 89db6ff34384996930e2a23c3d2301f4a60560e5 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c0_sum_stat.R | 0.0 | 02b39762118da6e645416f9df2031a2bfa6768f9 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c1_mh_regression.R | 0.0 | 8afd25dcbdc051d0dbdb6f07c0f58e88a6ec39bc |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c2_mh_viol.R | 0.0 | 086f503b4f1625ad400b620e0ffb28648095023c |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c3_demand_elast.R | 0.0 | d078478b1740a6be093097c7e9c291c8c80186ec |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c5_selection_figures.R | 0.0 | 2d07086d841a47a7dc10e103cd226e8963158493 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c6_estimate.R | 0.0 | fe77c8acaff44815d57d4826dd8c76c741a889ae |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c7_model_fit.R | 0.0 | 5efa7fb475037fa1a66855d4a602abfe62c567b8 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c8_ctf_run.R | 0.0 | 2d914788a7d62915174a59c9207ed42b954c169b |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._simulate_data | 0.0 | 6cae084b078e542ac9bd49b21939c632eb8441bd |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/._ctf | 0.0 | e4152a5d21b9dc97d93762aee5dce3c58010ac82 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/._data_clean | 0.0 | a6183b6b7745f4a17ec1498e33d067bf510eef6e |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/._estimation | 0.0 | 784c1711521a24770d364e271935fc97642bd081 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/._load_sim_data.R | 0.0 | 4e4656a557e93e1e6970f89b9e7b4e181f39efb9 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/._sim_helpers.R | 0.0 | 328e3744380e02727ab203ae658a204a739fbc05 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/._ctf_calibration.R | 0.0 | 8fae530e216e17e7896ef84f7dafdf6ff32a49fc |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/._ctf_clear_cache.R | 0.0 | 4bfe1d3b30cdcd5efad2bdc542dc6aa1e61527c9 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/._ctf_equi_k_find_equilibria.R | 0.0 | 10e0d864a0e15dc9dbf3bc263faa87db3e20603e |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/._ctf_equi_k_save_grid.R | 0.0 | 62719e10b35ce6dba50fdc380e97dd31fb846392 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/._ctf_preload.R | 0.0 | adaf03f8903d0a596e7af6131dba68810eb78183 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/._find_cycles.R | 0.0 | bcc689b9f0d79c34e1910937915128bc3c254a46 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/._get_ctf_util_profit.R | 0.0 | bd137d4bc8e9d098f0ca5ac4052d78d1e025477c |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/data_clean/._clean_choice_panel.R | 0.0 | 481cb30e4d739a413aa07dbe541fbb631d94a86f |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/data_clean/._get_next_rrev.R | 0.0 | 0dd42ef39e82de0e5ff6d15197d7185f1a53a185 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/data_clean/._panel_renw_clean.R | 0.0 | eeb715dd7df6fce8f946a35532350b2297660f66 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/._ctf_functions.stan | 0.0 | bd55621d3559c62be7df6b64d2d2bd1aeba8b8ab |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/._extract_model_estimates_cmdstan.R | 0.0 | e0ef14ba1a7a0611a77b52de2cdb78456016e9fc |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/._get_c_latentparams.R | 0.0 | f436affb87fcfdf56e81c1d16a611caa52ccf995 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/._get_cp_pred.R | 0.0 | aa860b0566e77ca9327e5e8eb223aac1b01195be |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/._get_d_latentparams.R | 0.0 | 5ec8a09ddbcfb356696ad8e1a37eabc2ce26a98d |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/._get_d_pred.R | 0.0 | d5de199e1c0df153d7593e1f9385275f727693b1 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/._get_fit_cp.R | 0.0 | 1e3970269bea50b9a13340f284d9a9693b60f5c8 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/._load_estimation_bootstrap_data.R | 0.0 | bd254641a26f473005540e7f81839b7e2696eaca |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/._load_model_data.R | 0.0 | d06d0791fc4f120a4755313b8ba439cb32e668fa |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/simulate_data/._sim_generate_data_list.R | 0.0 | d14fd0a4784ca9ec6a322698f59634dbac742691 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/simulate_data/._sim_generate_rf_data.R | 0.0 | 15cbc486f45a1ea25ca31132b7cd4e05e88cb7ed |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/._estimates | 0.0 | 1d09f6e8f57e40be2ca1a04f9598bd77e7c44e6c |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/._precomputed | 0.0 | 12e65d642c1f721cccf778339773a3268d465468 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/._simulated | 0.0 | 2f1d49ac3763cbeb8dcd1b3ee7a5faf968ff1fcd |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/._model_output | 0.0 | 1fc5c31ada5e897c6a0aa06d919448416b92785c |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/._regression_output | 0.0 | 78aa88112cf48c9ccb0a5ba0d1de6bfbe79e7dd9 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/._model_cost | 0.0 | 3d4d48e8e4337f028de9ca3e2819d31b3161b0df |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/._model_cost_mhhet | 0.0 | 812e859ee809b7a1584d691f500ec516420cb711 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/._model_main | 0.0 | 47dd64681656296ef8d35ab9059de4c8302e65a2 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/._model_main_2p | 0.0 | bc51ede4900c787e8371390c3203943ed66ab342 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/._model_main_4p | 0.0 | 6ed9bfbb18fc1621f2c1a99657b788f3f229df4f |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/._model_price | 0.0 | ea8dccd34cbf2f73e5e30410a9c86a2ceb7464a0 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/._model_sev | 0.0 | a3f4a1552287eda73e09a111d0c0775bd188d6f9 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_cost/._model_cost.stan | 0.0 | d5fcb791d22d40337419af8156dd8c418eca979f |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_cost/._results | 0.0 | 101d00bfa07d104e4ba8ed039f07c93583334e25 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_cost/results/._bootstrap-result-id-0.csv | 0.0 | 6b9f3a70dafd4bd129429d9434de87313fdc8bd3 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_cost/results/._model_cost.tar.gz | 0.0 | 3ab7d10a7bc950a4e0698cc7d1a5ba4c7a702a50 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_cost_mhhet/._model_cost_mhhet.stan | 0.0 | f12e857739e1c128deeef4a088b50dc0bbff567c |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_cost_mhhet/results/._bootstrap-result-id-0.csv | 0.0 | 810a61435152cc35dbb42c7cb5feeaf8e45cf05c |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_cost_mhhet/results/._model_cost_mhhet.tar.gz | 0.0 | 144cb3ce4827101589a6ee36b5af921b253673ff |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main/._model_main.stan | 0.0 | 1f4460604551d391fe7442b1c0f8ed539ce29cf3 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main/._results | 0.0 | dfc77d23577c1db1196b7ad978c6fc180fdb935d |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main/results/._bootstrap-result-id-0.csv | 0.0 | f45d1dc1cf00e28545da9131bde55fb29ceda537 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main/results/._model_main.tar.gz | 0.0 | 1db4a0384e297b642f807b2a673e8a0d7c4419fb |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main_2p/._model_main_2p.stan | 0.0 | 6474f2a46772a68e16b340b7da3164bd47f9426b |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main_2p/._results | 0.0 | 3d44f7a482cf05483489596483ddbec6d5773334 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main_2p/results/._bootstrap-result-id-0.csv | 0.0 | f40593fd7231144a334939187b0df4d58fcf5c9d |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main_2p/results/._model_main_2p.tar.gz | 0.0 | f5310faf762be7fe386f215df64cc0607dafbc67 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main_4p/._model_main_4p.stan | 0.0 | 8f507e482fa52e6e70b7065c36c9da6f78842b6b |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main_4p/._results | 0.0 | 8107abbb0cddbecadb9b58940359848cb1bce7b8 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main_4p/results/._bootstrap-result-id-0.csv | 0.0 | 40109dcb0d81706acdd2b2f06c203842546a08ca |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main_4p/results/._model_main_4p.tar.gz | 0.0 | 00d41dfe5fe1e3cb0829c7e7a116f1dc160d54ce |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_price/._model_price.stan | 0.0 | 42035db8ea6224f1d2d424d9f50f20ee71ea78d6 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_price/._results | 0.0 | a65ee6ae14951ee6b2ae6990e929dcbd91b51a47 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_price/results/._bootstrap-result-id-0.csv | 0.0 | 5786fcd5e0c9a1acaff7bbd9cc55715abdf7bab9 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_price/results/._model_price.tar.gz | 0.0 | ad3d726dbf54b2c089faf63492c993362bbdbf3c |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_sev/._model_sev.stan | 0.0 | 73d757b06f76e7dd8220742a92f53d657dd8f38b |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_sev/._results | 0.0 | 56ca7084a6adc4757edb5bb8d1f792f527ff1aa8 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_sev/results/._bootstrap-result-id-0.csv | 0.0 | 7c6c9653752ab9f0a3838a3abfdb8accba33fbf7 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_sev/results/._model_sev.tar.gz | 0.0 | 073b1f5eeaed95d3c1959175a861f0f11a605e8f |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/._appendix | 0.0 | e48df69ee2202f5fb28acb5a10929f57f03d2669 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/._fig_4_regression.json | 0.0 | 3a810e06fb31e5af8cf76a78926dc4a0190f0ca7 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/._fig_5_regression.json | 0.0 | b98bd7c4de8ea96456f145374906c65131acfdc2 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/._tab_3_regression.json | 0.0 | ca67d0ba335980d521e56c70ab84df6cd7a1c110 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/appendix/._fig_a5_a6_regression.json | 0.0 | e14b668b9ed5daf009dfc19ce0b8f0f1b49e0a97 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/appendix/._fig_c2_c3_regression.json | 0.0 | d17e4ce473518d92348726e109c2747ba4625492 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/appendix/._fig_c4_regression.json | 0.0 | d067a2c36843a78e340b37e982c3865e7595c5f6 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/appendix/._tab_c1_regression.json | 0.0 | 3fc6573186414651a540af78a90fc226368ba789 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/._ctf | 0.0 | 559d65a3c4b455470003def30d813c19dc6d4335 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/._model_fit | 0.0 | 62db6bf7fc0111f35f2d2ec92c2f59ff738aa8b2 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/._rf | 0.0 | 971e688e4cb8c8e6a267a8140de999c9137a4880 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/._tab_7.csv | 0.0 | cb5295d1cb74207342bf97d862e8746d821fe3ab |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/._tab_a10.csv | 0.0 | 402ae89cd26a09a590f47fa8c478475dab2064ff |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/._tab_a11.csv | 0.0 | 4462459147fb768e9d796bddc0bb884bdccb3737 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/._tab_a12.csv | 0.0 | 0162a89a851374f038085c95a76d89bef73f1076 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/._tab_a13.csv | 0.0 | 43aec71eb78a6d55b76fadf0a204d428a52de8a8 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/._tab_a14.csv | 0.0 | 976a80d192b72122d592b61e244a0a9f8964cf08 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/._tab_a15.csv | 0.0 | 2ff83550d301016152ebc7e5007dd17bc9f3046a |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/._tab_a9.csv | 0.0 | fc0a88689126db7fe4dd01e8405e498b95c947d0 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/._tab_c4.csv | 0.0 | 9fda7228675ffe6490ee591934f9a664817da9ef |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/._tab_c5.csv | 0.0 | 549dcfe458802bd2fb1c1e615e564a3dd0dd9c8a |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/._fig_6b.csv | 0.0 | d12cb63a336079a84728981906f2eb438b8850d8 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/._fig_b4.csv | 0.0 | d92fa8c2eb5d9e6afafddfa42eaf730adac1f1cf |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/._tab_4.csv | 0.0 | 339976e63dd9dd2b606b4beb2a4c0b5515462071 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/._tab_5.csv | 0.0 | 698f5fb721d2051503600689a12487f77327dc72 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/._tab_c2.csv | 0.0 | 8ef17a159d3fd36cb58d0eb2f95595eea043139f |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/._tab_c2_block2.csv | 0.0 | 173b33e4abc5850a3d40932a71d1862c97bb5bf0 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/._appendix | 0.0 | b20f3e586d608eac5e2eb8d3a02853ea7eba2d64 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/._fig_2a.csv | 0.0 | 4ee0893f888c4fc9ce6f440185e0c8b5e461e273 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/._fig_2b.csv | 0.0 | 3e1b1fb8c772ca264312f4d28d490d2f436afe84 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/._fig_3.csv | 0.0 | 6900429eab401c2d1d7bf7bbf4e3ccd9b41785c8 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/._tab_1_meta.csv | 0.0 | aaa99b5f73ec302f922a11af320e9f2ef73bfd44 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/._tab_1_panel_a.csv | 0.0 | 6c7f70dd85ba8c461c4821d9cde9c9c4a5eaf8e4 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/appendix/._fig_a3.csv | 0.0 | 4939beb48d66bc5e9179c9cf164e7534893318f0 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/appendix/._fig_a4.csv | 0.0 | 53f7f6da4931bc92a6ccb7139e7d6bf2d57ca4ba |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/appendix/._fig_b1a.csv | 0.0 | 22b5103837987a251f85a93c5f84c6c0d60e9c96 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/appendix/._fig_b2b.csv | 0.0 | aa638928a413e90d1487a63b170d521e767fb148 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/appendix/._tab_a1a2_summary.json | 0.0 | d3c98adba49b39ea27fe617c93ad4820c3653528 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/simulated/._data_profile_data_list.json | 0.0 | 4ca349fa3d629b8337d922c0b8bdbc2d7cb9fa15 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/data/simulated/._data_profile_rf.json | 0.0 | ba262f32ea00b15defde3e92fe2dedffebf6aa23 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/._exhibits_static | 0.0 | d6455c2a8e952199760151af815a6a743190a4ad |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/._format | 0.0 | 88ae09e2c98ada4f98206f5088a7b96db8969e3a |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/._literature.bib | 0.0 | ab6ee52d8204cd3dacde8136c2951783b1895d07 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/._paper.tex | 0.0 | 02f35e36b4d39fad4a52d2890c1b991a0bd74b3c |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/._text | 0.0 | 38a03b7acb5133683260f40b3556eeb23c907656 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/exhibits_static/._appendix | 0.0 | 6881ab4c052d24a74b1f71a95a7a245cb2f832e3 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/exhibits_static/._fig_1a_static.png | 0.0 | 1fbc4e8a7ade6da7a75ea0540e53906148eb4e4f |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/exhibits_static/._fig_1b_static.png | 0.0 | 55ebe8d7144adf13ed50b8ebe75ef23a0f54e2fc |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/exhibits_static/._fig_1c_static.png | 0.0 | af8a7a8b4069c863336c09f7292e680e2e7a73a8 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/exhibits_static/._fig_1d_static.png | 0.0 | 0a6731ca631936bda816a65dd901acf229965651 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/exhibits_static/appendix/._fig_a1_static.png | 0.0 | bb564a0fc90c8a8bd5d3071d4e605563a9f4f448 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/exhibits_static/appendix/._fig_a2_static.png | 0.0 | c3d4c779a7648feea6e95af876c1d9be1d1867bf |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/format/._packages.tex | 0.0 | 8b220efba03f13353ef6b5ff579b654fb4f83f20 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/format/._paper_setting.tex | 0.0 | 59cb70422a7ef8e795126cc8bf5682dcb41cae1a |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._appendix | 0.0 | a4a604cfa523cbe38585c4a063022e1e4238f6b6 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s0_thanks.tex | 0.0 | 4912608f11816c8ed4265f18045e9710bac38456 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s1_introduction.tex | 0.0 | b411b640e62bb9f071674867f585d0adb90752da |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s2_background.tex | 0.0 | 72d966fd28d6985fe833abaeb6887e9347d7c39c |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s3_reduced_form.tex | 0.0 | 94b77763ff48ecaa991fa949b9847f7bbdfe0059 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s4_model.tex | 0.0 | 2d981416745537811e90d136767279715ccf54f1 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s5_estimates.tex | 0.0 | 47c4447b42193a28ca2b595155fa2fa806e445f1 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s6_counterfactual.tex | 0.0 | ff3dc58bf9680e4451c89d992e60ea264762e7f7 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/._paper_app.tex | 0.0 | e823a9f69a879ac0ebdb05d95ad20682b0f804e3 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/._sa_add_figs.tex | 0.0 | 37dfc756df90cab63faee131d7cc881f1a3f49d4 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/._sb_firm_pricing.tex | 0.0 | 94e03c52ae4a4368d475618a3be49f5052e46c68 |
-| /__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/._sc_robust.tex | 0.0 | 0a1c6304b146489da5be42c6d85fbf0641fcb0ea |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/appendix/fig_a3.csv | 0.0 | 5a49b30210b9a3cd77fbb4890504cc13e4efeca1 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/fig_3.csv | 0.0 | 1308510b779a97e63204d8254445bd1941f3b9f3 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/paper_app.tex | 0.0 | 4710e5f8787e43007286ffd2618f148bee7de961 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/tab_1_panel_a.csv | 0.0 | c2a9e1c65e9e7be03f9af6cd18c725ed8972e49b |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/tab_1_panel_b.csv | 0.0 | c00964b06731c1366378c8a87f31a36aaaf967af |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/tab_c2.csv | 0.0 | 066f72b161e5c94bcd9846c997ba3bccd83bbeef |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/tab_4.csv | 0.0 | e8c8b3c23ea63fe3dd625596801382c10d9591df |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/LICENSE.txt | 0.0 | b77fb80a6a55fa571485ac7c0383b656fe7f0a31 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/tab_c2_block2.csv | 0.0 | 3274f281e7b1537e58a5508823aef7e102ed394c |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/tab_5.csv | 0.0 | b2d1216e4caf901faa7d26df05d969b7c544455d |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s0_abstract.tex | 0.0 | f1de2145460804908bbdf8acf45f733b62a7c191 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/ctf_clear_cache.R | 0.0 | 5d7538fe1370c7cbfcca6f89653d6dc4c07faf6f |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s0_thanks.tex | 0.0 | 8cbaa1afee1a8e5c04207cc864ab3f1661c5c43b |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/paper.tex | 0.0 | b7da2c15087fa09c63cd6e942107569e4b3ad751 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/data_clean/get_next_rrev.R | 0.0 | b09941db3169c3a97277a072b41311db05e21f1b |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/ctf_equi_k_find_equilibria.R | 0.0 | 4f403f3b521ee59e5a98d6b96f381d87fd0fc2ed |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_price/results/bootstrap-result-id-0.csv | 0.0 | a381baaaeb3ad3e06c98fcf0788641bba80b9c7d |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/format/packages.tex | 0.0 | 00634ac788d93ce823a04939a5ece40d97d130dd |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/appendix/fig_b1a.csv | 0.0 | b1868178f6c5ed1cf08e3be5f8487cd70d66c167 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/format/paper_setting.tex | 0.0 | ff9ab8f4be39cbba79101e09908b0b34492adf94 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/run_all.R | 0.0 | ed9d73e12d0976326efefe63b09dd61c81d4ea55 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/tab_a11.csv | 0.0 | 46653e66b7353c1e4ee2413a8e0c4a7e219acb9a |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/tab_7.csv | 0.0 | 6beea768e80852467bbac70ea96c357183c5d26f |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/tab_a10.csv | 0.0 | d8c2389b7d44ce327db38a88d924642430b6bf1f |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/tab_a9.csv | 0.0 | 84ae61cca7b211ffaff5617663c3a34b196f9b17 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/tab_a13.csv | 0.0 | 1dbe07a11466d1a4326aa3946c434c272c5965f6 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/tab_c4.csv | 0.0 | e9d5c46e560c23eec2441bd78152b9edcebce958 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/tab_c5.csv | 0.0 | 91e67851cfbfa0e61e3aec63853b73d9a0f4db72 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/tab_a15.csv | 0.0 | 0bf8ef629741c882c2960e1493037abc78bcde08 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/get_c_latentparams.R | 0.0 | 552497a55ac73b5da9c9920fb86b485531e391da |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/tab_a14.csv | 0.0 | 6b6766e4349c212ebaf80507b8b857fe09718b74 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/ctf/tab_a12.csv | 0.0 | 2281fc3bd9c118c7a19df219b7fd47d6873c8ae3 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/get_cp_pred.R | 0.0 | 86b236f9a684374c44d7c84a3bbbe2700a3a1500 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_sev/results/bootstrap-result-id-0.csv | 0.0 | fa49d01115632cfbe1e2280f021db41f5b39a43b |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/getX.R | 0.0 | 9c38e393ba3e3acb7dafa714153f06f036646a5e |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/data_clean/clean_choice_panel.R | 0.0 | 2bb178a5d3003ab87a967e84eb363581ac479f22 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/helper.R | 0.0 | 41c4c23fbef339748bb2940ff369932730c7a7db |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/fig_6a.csv | 0.0 | 00f95867b99d86151b29800ee574610ca65ea550 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/appendix/fig_a5_a6_regression.json | 0.0 | 0791990f29961cec6a569d523a430428a9b9aa2e |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_sev/model_sev.stan | 0.0 | 9328d66809a6155c4e6a41c59ad5ed240153b1f6 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/load_model_data.R | 0.0 | 49bbbe1fa4271452bb0764ab87b762cb67db37e1 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_price/model_price.stan | 0.01 | 861bd1ae234d1a2167a475641754b4fff3da4b2f |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/ctf_preload.R | 0.01 | 22a8880d89b030cdbac5a1cd705354872e5f019d |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/get_fit_cp.R | 0.01 | 6dc37320e8f5750e833a4cd6b9ad95cb941921d6 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/sa_add_figs.tex | 0.01 | 20fd94577d4a16a0f3622bb4d4f47511325278a9 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/load_sim_data.R | 0.01 | 092c4349a97124dd3aff49375e25bb26e013c7a8 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/.DS_Store | 0.01 | f09caa9c1fe2e09926e2838ea35adbb4365c077a |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/.DS_Store | 0.01 | 180f18a120741cf54cb0335b163ec37b7f882298 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/.DS_Store | 0.01 | da26a85e764da9b452e88c413dc2caa3671c7b30 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/.DS_Store | 0.01 | 05a8762ad3374e57b1f4abfd2bd7439ffe0b810a |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/.DS_Store | 0.01 | b8a02e8a4872a78397dcdc55d6fb30ddaccc40d9 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/config.R | 0.01 | 65c375deb9e84d3d6428e60c38b68a2d8dc973b7 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/load_estimation_bootstrap_data.R | 0.01 | 2fa01ec9e02a005b4e9edf18a19fbd2538585dba |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/appendix/fig_c4_regression.json | 0.01 | 8b93958e131598dade42fd3c992a802bd4a5c896 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/sb_firm_pricing.tex | 0.01 | a60cb2a13b2aaa59d483273be46c03605e4512e2 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/bootstrap_helpers.R | 0.01 | a1a7b757a7f29cd12347d73597d343e239d08575 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c2_mh_viol.R | 0.01 | 60f52276d99d974f3f449d981132c96edaed5c1f |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/appendix/fig_b2b.csv | 0.01 | ba553777014ff82368859417f1894fb40fa7e6b3 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/extract_model_estimates_cmdstan.R | 0.01 | 1b2223e733ced6f128ce2a70086c95c822cd94e6 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s7_conclusion.tex | 0.01 | c4e71aa13b0bb3b5a307ec704128b4bd315e9422 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/find_cycles.R | 0.01 | fb83627fe2c2d50f884cd8482f7df80a056b1df7 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/appendix/tab_a1a2_summary.json | 0.01 | e13f14515ea5d847f842eaf1a20b37a81037990f |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/fig_b3.csv | 0.01 | 9368981df8521d62eafbabaa4a7a2680047bf40c |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/run_simulated.R | 0.01 | 85b89c63c2051a160a6dfe038df162b913d38892 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s5_estimates.tex | 0.01 | 1b261a97fc2fd445a2eeac4b4de9880d58cc1929 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/get_d_latentparams.R | 0.01 | e10c796711b45914196fb81ff0587620c35177c6 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s1_introduction.tex | 0.01 | 25c16a166f892a1a1b24f5066df17c08d1c001ce |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c3_demand_elast.R | 0.01 | c7d508a7050ded1180820729f3ba05dc2454416f |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/sc_robust.tex | 0.01 | bfe9de4027f333f913c2ea95ae28bfacf4331706 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/sim_helpers.R | 0.01 | 845afe21c10a1db1e914a57b92023271a8c603af |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/ctf_table_helpers.R | 0.01 | 96fa629577a76bd3ff55a19102ae18faa34944dd |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/ctf_functions.stan | 0.01 | fea5573989739ba125e750174fc61e0f2235a193 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/fig_b4.csv | 0.01 | f48a2bc46ca48f3ae059dcbaa3f951ac200caa5e |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/get_d_pred.R | 0.01 | 55217c8d5fcdde58f0e022c51a1c04ba56746a1a |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c4_data_figures.R | 0.01 | af98c88cb0d9cd131408e2f903eba73f92c7184b |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/simulated/data_profile_rf.json | 0.01 | f60c4aef08683fdf07b3fac9ae17a415351048a6 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c6_estimate.R | 0.02 | 2eef9bc0c9df249b6ca4169885599c2e1d9b71f1 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/appendix/fig_c1_regression.json | 0.02 | 77e1722315857b0f8fb4dfe73bb2f8000b5040d6 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/fig_4_regression.json | 0.02 | da35901f4dd29c318f74af8eb73ce06312209b2b |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c8_ctf_run.R | 0.02 | e1dcdc500fcf361c7590e380002df2f9ff176b5c |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/ctf_calibration.R | 0.02 | b3744c3cbd1e6b636cd9efddd14a82dc280823b7 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s2_background.tex | 0.02 | fa1f51df71a386a24ec5330f137fb51f99e29932 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s3_reduced_form.tex | 0.02 | 692c15e3560b96873c82d6f9f0590880c18a260f |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c5_selection_figures.R | 0.02 | 75a4d8f06d85cddb4732b6f5bbd2f71f86240d52 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/data_clean/panel_renw_clean.R | 0.02 | c5ef224f92500a336715993be87df072173c8b2f |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/tab_3_regression.json | 0.02 | e77232989dac9dd7830c816571647e03ddb27068 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c1_mh_regression.R | 0.02 | b259610b5bb7e9bfd3b42c6a66098cee1332bdaa |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/README.md | 0.02 | 7e51c6b8fa15c9d72bfc71d93514cf6a734a9831 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c7_model_fit.R | 0.02 | 14c173ee20d564e987df4e1c88ba92c242b1a961 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/literature.bib | 0.03 | 107d80211a02972a402d96dc81850e9077c41dc7 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c0_sum_stat.R | 0.03 | 70cb7c0db1e5bcb76e82f53f597c1dfe0cb2ec79 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/get_ctf_util_profit.R | 0.03 | f33317f6bbd8022667d2a175363ef249a9838595 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s6_counterfactual.tex | 0.03 | fca060d2fc6ea6bb82160f881682d2f27da234b1 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s4_model.tex | 0.03 | 890ffd5eedf415725a12ffe8348394890602ceeb |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/c3_get_fitctf_exhibits.R | 0.03 | 0ab75f5ba2a15347c41006b1cbeb718a41742ef4 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/appendix/fig_b1b_regression.json | 0.04 | a9eacc238fda2818ed7315302ae13c5b9b411298 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_cost/model_cost.stan | 0.05 | 8ff7e3f0b021e42316805f7e02fb846f50a4615b |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_cost_mhhet/model_cost_mhhet.stan | 0.05 | 713920de6cf721a59c82416335b0042c04c148af |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/simulate_data/sim_generate_rf_data.R | 0.05 | fe081026792d87b5c35b519483eebf67cb7511ec |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/fig_5_regression.json | 0.05 | 14981240ab46035dc2736247f6e4e48cd9b4c97d |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/c1_get_rf_exhibits.R | 0.05 | 2f1691e9af9157eb1b06a643df3c16796b0924a6 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/ctf_equi_k_save_grid.R | 0.05 | c9b8b6f4c73d5b3db3729c94ab655eafebdb5a3a |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/c2_get_param_tables.R | 0.06 | 854b7c45aaa17de5313cdb3ca5db295ebeae2318 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_price/results/model_price.tar.gz | 0.06 | 6c113e5d93ed533c2de873d3e97ce2c7e906c363 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/simulate_data/sim_generate_data_list.R | 0.07 | 4a53148995267ed083e1c297429d03ad8cc2840f |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main_2p/model_main_2p.stan | 0.07 | cdba27fbd31d112e0ce99195e502f037909cac9d |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/appendix/fig_c2_c3_regression.json | 0.07 | 58e6b6e49ae12c1d6ab417283d7a5241e879d09f |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main_4p/model_main_4p.stan | 0.07 | 447ddc8c214dc3f908b8db794b65993e2cf92eb4 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/appendix/fig_b2a.csv | 0.07 | f41d648578679a7d0ab49a3ed1f3821e5a1fb82d |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/exhibits_static/fig_1a_static.png | 0.07 | ef46d0ad7cc9d7ace136fa3cd8825e1531338feb |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main/model_main.stan | 0.07 | dc1022e9f736783d948820dc6d74aed0f803e385 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_sev/results/model_sev.tar.gz | 0.09 | 30bb4fea9ebafcf7956936506f118ac080af795f |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/appendix/tab_c1_regression.json | 0.1 | 3a3c56893fb663c20add4e53621e216f9b09e7e5 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/regression_output/tab_2_regression.json | 0.1 | dd6551a52f423a3e30decfb98693b1b97deb9e11 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/fig_2a.csv | 0.12 | 8a5eb29772621d1dc1146e123a0c7a7c1f6dbfaf |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/exhibits_static/fig_1b_static.png | 0.13 | 9a819411e201775165cbc519dbc7441dd690f56d |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/exhibits_static/fig_1d_static.png | 0.13 | c3bc976b267ede71fa45a764335caf556a8cb0ef |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/exhibits_static/fig_1c_static.png | 0.14 | a00ebfd079ee02d9be167a7e01afadc9f81c3eef |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_cost/results/bootstrap-result-id-0.csv | 0.14 | 139b42cb1b473ebe5d08de4a9b1e8079ba2c284d |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_cost_mhhet/results/bootstrap-result-id-0.csv | 0.24 | 99e4224e1caee338870a1cb63bde8aba886ae583 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/fig_6b.csv | 0.27 | db0b821d82f1a712de68822d09d89ed7d6cf6631 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main_2p/results/bootstrap-result-id-0.csv | 0.46 | 6b17c9ffc1fc7ffda429a35aa2dc408247520150 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main_4p/results/bootstrap-result-id-0.csv | 0.46 | 04bdb100cc724d74d55a285830961ccacfc04d8e |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main/results/bootstrap-result-id-0.csv | 0.46 | 011106a0cbbc1dc4da8c3d04a6e63640f2c88910 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/exhibits_static/appendix/fig_a1_static.png | 0.84 | acc9687c715e93993129bbdbbd185e5656311b33 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/appendix/fig_a4.csv | 1.26 | 87cad56e16c8b8c81530e1864eb2a7ad698fe5c3 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/paper/exhibits_static/appendix/fig_a2_static.png | 1.8 | 59a37fe9918a2c91e790f4fcc482576df14a2cee |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/rf/fig_2b.csv | 1.88 | d1bfbb649a85002c2af467531d02e2d5df8ee54c |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/simulated/data_profile_data_list.json | 2.46 | 174947ba7d87904a309b42e1cb6e35ab60608d9c |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_cost/results/model_cost.tar.gz | 7.79 | eb33cb0bc2095a56645342c644ba3278fcb3177d |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_cost_mhhet/results/model_cost_mhhet.tar.gz | 7.84 | 1475f05524adc4fb66af67eec1ba1ea801b33155 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main_4p/results/model_main_4p.tar.gz | 14.03 | e9a795783cec58d295345ebb521f9bacbcbd3978 |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main_2p/results/model_main_2p.tar.gz | 15.23 | 6eae9ba62c2da803d03e2207749589f03ce4f06b |
-| /Yizhou Jin - jinvass26_replication_mar_29_2026/data/estimates/model_output/model_main/results/model_main.tar.gz | 15.24 | 53997c403482256bbdcf23e6eee69adf0a45f334 |
+| /jinvass26_replication_may_19_2016/data/precomputed/rf/tab_1_meta.csv | 0.0 | f45ea8d063f9dfa3d33349711eff05e269f8a45e |
+| /__MACOSX/jinvass26_replication_may_19_2016/._COVER_LETTER_AND_CHANGE_SUMMARY.pdf | 0.0 | ee2086607a74d10de174403ac1b11e8aaa057a8b |
+| /jinvass26_replication_may_19_2016/data/precomputed/rf/appendix/fig_a3.csv | 0.0 | 5a49b30210b9a3cd77fbb4890504cc13e4efeca1 |
+| /jinvass26_replication_may_19_2016/data/precomputed/rf/fig_3.csv | 0.0 | 1308510b779a97e63204d8254445bd1941f3b9f3 |
+| /jinvass26_replication_may_19_2016/paper/text/appendix/paper_app.tex | 0.0 | 4710e5f8787e43007286ffd2618f148bee7de961 |
+| /jinvass26_replication_may_19_2016/data/precomputed/rf/tab_1_panel_a.csv | 0.0 | c2a9e1c65e9e7be03f9af6cd18c725ed8972e49b |
+| /jinvass26_replication_may_19_2016/data/precomputed/rf/tab_1_panel_b.csv | 0.0 | c00964b06731c1366378c8a87f31a36aaaf967af |
+| /jinvass26_replication_may_19_2016/data/precomputed/model_fit/tab_c2.csv | 0.0 | 066f72b161e5c94bcd9846c997ba3bccd83bbeef |
+| /jinvass26_replication_may_19_2016/data/precomputed/model_fit/tab_4.csv | 0.0 | e8c8b3c23ea63fe3dd625596801382c10d9591df |
+| /jinvass26_replication_may_19_2016/LICENSE.txt | 0.0 | b77fb80a6a55fa571485ac7c0383b656fe7f0a31 |
+| /jinvass26_replication_may_19_2016/data/precomputed/model_fit/tab_c2_block2.csv | 0.0 | 3274f281e7b1537e58a5508823aef7e102ed394c |
+| /jinvass26_replication_may_19_2016/data/precomputed/model_fit/tab_5.csv | 0.0 | b2d1216e4caf901faa7d26df05d969b7c544455d |
+| /jinvass26_replication_may_19_2016/paper/text/s0_abstract.tex | 0.0 | f1de2145460804908bbdf8acf45f733b62a7c191 |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/ctf/ctf_clear_cache.R | 0.0 | 5d7538fe1370c7cbfcca6f89653d6dc4c07faf6f |
+| /jinvass26_replication_may_19_2016/paper/paper.tex | 0.0 | b7da2c15087fa09c63cd6e942107569e4b3ad751 |
+| /jinvass26_replication_may_19_2016/.gitignore | 0.0 | f550988109fb73c5ab9df1896cb6dcb14c2ad50a |
+| /jinvass26_replication_may_19_2016/paper/text/s0_thanks.tex | 0.0 | 0f671877c6cda1faf12d92433331181baf9e4af9 |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/data_clean/get_next_rrev.R | 0.0 | b09941db3169c3a97277a072b41311db05e21f1b |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/ctf/ctf_equi_k_find_equilibria.R | 0.0 | 4f403f3b521ee59e5a98d6b96f381d87fd0fc2ed |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_price/results/bootstrap-result-id-0.csv | 0.0 | a381baaaeb3ad3e06c98fcf0788641bba80b9c7d |
+| /jinvass26_replication_may_19_2016/paper/format/packages.tex | 0.0 | 00634ac788d93ce823a04939a5ece40d97d130dd |
+| /jinvass26_replication_may_19_2016/code/simulate/tab_a12_horizon_rescale.R | 0.0 | 5d429a71273685e70f4efd7f1d09ec5402d8c1ab |
+| /jinvass26_replication_may_19_2016/data/precomputed/rf/appendix/fig_b1a.csv | 0.0 | b1868178f6c5ed1cf08e3be5f8487cd70d66c167 |
+| /jinvass26_replication_may_19_2016/paper/format/paper_setting.tex | 0.0 | ff9ab8f4be39cbba79101e09908b0b34492adf94 |
+| /jinvass26_replication_may_19_2016/code/run_all.R | 0.0 | ed9d73e12d0976326efefe63b09dd61c81d4ea55 |
+| /jinvass26_replication_may_19_2016/data/precomputed/ctf/tab_a11.csv | 0.0 | 46653e66b7353c1e4ee2413a8e0c4a7e219acb9a |
+| /jinvass26_replication_may_19_2016/data/precomputed/ctf/tab_7.csv | 0.0 | 6beea768e80852467bbac70ea96c357183c5d26f |
+| /jinvass26_replication_may_19_2016/data/precomputed/ctf/tab_a10.csv | 0.0 | d8c2389b7d44ce327db38a88d924642430b6bf1f |
+| /jinvass26_replication_may_19_2016/data/precomputed/ctf/tab_a9.csv | 0.0 | 84ae61cca7b211ffaff5617663c3a34b196f9b17 |
+| /jinvass26_replication_may_19_2016/data/precomputed/ctf/tab_a13.csv | 0.0 | 1dbe07a11466d1a4326aa3946c434c272c5965f6 |
+| /jinvass26_replication_may_19_2016/data/precomputed/ctf/tab_c4.csv | 0.0 | e9d5c46e560c23eec2441bd78152b9edcebce958 |
+| /jinvass26_replication_may_19_2016/data/precomputed/ctf/tab_c5.csv | 0.0 | 91e67851cfbfa0e61e3aec63853b73d9a0f4db72 |
+| /jinvass26_replication_may_19_2016/data/precomputed/ctf/tab_a15.csv | 0.0 | 0bf8ef629741c882c2960e1493037abc78bcde08 |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/estimation/get_c_latentparams.R | 0.0 | 552497a55ac73b5da9c9920fb86b485531e391da |
+| /jinvass26_replication_may_19_2016/data/precomputed/ctf/tab_a14.csv | 0.0 | 6b6766e4349c212ebaf80507b8b857fe09718b74 |
+| /jinvass26_replication_may_19_2016/data/precomputed/ctf/tab_a12.csv | 0.0 | 2281fc3bd9c118c7a19df219b7fd47d6873c8ae3 |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_sev/results/bootstrap-result-id-0.csv | 0.0 | fa49d01115632cfbe1e2280f021db41f5b39a43b |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/estimation/get_cp_pred.R | 0.0 | d44feeeeddbd951198134e1ef84b4a927acbe5b3 |
+| /jinvass26_replication_may_19_2016/code/functions/getX.R | 0.0 | 9c38e393ba3e3acb7dafa714153f06f036646a5e |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/data_clean/clean_choice_panel.R | 0.0 | 2bb178a5d3003ab87a967e84eb363581ac479f22 |
+| /jinvass26_replication_may_19_2016/code/functions/helper.R | 0.0 | 41c4c23fbef339748bb2940ff369932730c7a7db |
+| /jinvass26_replication_may_19_2016/data/precomputed/model_fit/fig_6a.csv | 0.0 | 00f95867b99d86151b29800ee574610ca65ea550 |
+| /jinvass26_replication_may_19_2016/data/estimates/regression_output/appendix/fig_a5_a6_regression.json | 0.0 | 0791990f29961cec6a569d523a430428a9b9aa2e |
+| /jinvass26_replication_may_19_2016/code/simulate/fig_b3_override.R | 0.0 | 90aed4c9918ba2a7fc4b4dd661fe7a6bc0ff033c |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_sev/model_sev.stan | 0.0 | 9328d66809a6155c4e6a41c59ad5ed240153b1f6 |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/estimation/load_model_data.R | 0.0 | 49bbbe1fa4271452bb0764ab87b762cb67db37e1 |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_price/model_price.stan | 0.01 | 861bd1ae234d1a2167a475641754b4fff3da4b2f |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/ctf/ctf_preload.R | 0.01 | ebc04330bc4f9f3102d00bb8dc3c44b117d2b7c9 |
+| /jinvass26_replication_may_19_2016/paper/text/appendix/sa_add_figs.tex | 0.01 | 20fd94577d4a16a0f3622bb4d4f47511325278a9 |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/load_sim_data.R | 0.01 | 092c4349a97124dd3aff49375e25bb26e013c7a8 |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/estimation/get_fit_cp.R | 0.01 | 5bb745e4b7ec60e742b5e468476c2dffe29644c7 |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/estimation/load_estimation_bootstrap_data.R | 0.01 | 2fa01ec9e02a005b4e9edf18a19fbd2538585dba |
+| /jinvass26_replication_may_19_2016/code/config.R | 0.01 | f13dc8b72be3f1bd1b2bb29135e49b5e1c93d93b |
+| /jinvass26_replication_may_19_2016/data/estimates/regression_output/appendix/fig_c4_regression.json | 0.01 | 8b93958e131598dade42fd3c992a802bd4a5c896 |
+| /jinvass26_replication_may_19_2016/paper/text/appendix/sb_firm_pricing.tex | 0.01 | 478972bccd3c412592cd018b2781e02687bc6466 |
+| /jinvass26_replication_may_19_2016/code/functions/bootstrap_helpers.R | 0.01 | a1a7b757a7f29cd12347d73597d343e239d08575 |
+| /jinvass26_replication_may_19_2016/code/simulate/sim_c2_mh_viol.R | 0.01 | 60f52276d99d974f3f449d981132c96edaed5c1f |
+| /jinvass26_replication_may_19_2016/data/precomputed/rf/appendix/fig_b2b.csv | 0.01 | ba553777014ff82368859417f1894fb40fa7e6b3 |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/estimation/extract_model_estimates_cmdstan.R | 0.01 | 9fad1158c82cba8c401830dbdb0a51a136bbf9fc |
+| /jinvass26_replication_may_19_2016/data/precomputed/model_fit/fig_b3.csv | 0.01 | fe9fb5ab8dec5b1ae60784d6d30a0966bca7b14c |
+| /jinvass26_replication_may_19_2016/paper/text/s7_conclusion.tex | 0.01 | c4e71aa13b0bb3b5a307ec704128b4bd315e9422 |
+| /jinvass26_replication_may_19_2016/code/simulate/sim_c6b_estimate_robustness.R | 0.01 | 7d2c5f51fc5cd6f6386a72952092ed5a619da1cf |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/ctf/find_cycles.R | 0.01 | fb83627fe2c2d50f884cd8482f7df80a056b1df7 |
+| /jinvass26_replication_may_19_2016/data/precomputed/rf/appendix/tab_a1a2_summary.json | 0.01 | e13f14515ea5d847f842eaf1a20b37a81037990f |
+| /jinvass26_replication_may_19_2016/paper/text/s5_estimates.tex | 0.01 | 42d32dcd64e4b009c8bd60820cc81fd095f340a8 |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/estimation/get_d_latentparams.R | 0.01 | e10c796711b45914196fb81ff0587620c35177c6 |
+| /jinvass26_replication_may_19_2016/paper/text/s1_introduction.tex | 0.01 | 25c16a166f892a1a1b24f5066df17c08d1c001ce |
+| /jinvass26_replication_may_19_2016/code/simulate/sim_c3_demand_elast.R | 0.01 | c7d508a7050ded1180820729f3ba05dc2454416f |
+| /jinvass26_replication_may_19_2016/paper/text/appendix/sc_robust.tex | 0.01 | e04ce6ee20ce7012b9114ddb7e2fd9277827e386 |
+| /jinvass26_replication_may_19_2016/code/run_simulated.R | 0.01 | 2a8a18e16c2d69d8d31a6a42d6611b5413a168c8 |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/sim_helpers.R | 0.01 | 845afe21c10a1db1e914a57b92023271a8c603af |
+| /jinvass26_replication_may_19_2016/code/functions/ctf_table_helpers.R | 0.01 | 96fa629577a76bd3ff55a19102ae18faa34944dd |
+| /jinvass26_replication_may_19_2016/code/simulate/sim_c7b_model_fit_mhhet.R | 0.01 | 014ed2b414af691b050d39868e92629302c67648 |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/estimation/ctf_functions.stan | 0.01 | fea5573989739ba125e750174fc61e0f2235a193 |
+| /jinvass26_replication_may_19_2016/data/precomputed/model_fit/fig_b4.csv | 0.01 | f48a2bc46ca48f3ae059dcbaa3f951ac200caa5e |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/estimation/get_d_pred.R | 0.01 | 55217c8d5fcdde58f0e022c51a1c04ba56746a1a |
+| /jinvass26_replication_may_19_2016/code/simulate/sim_c4_data_figures.R | 0.01 | af98c88cb0d9cd131408e2f903eba73f92c7184b |
+| /jinvass26_replication_may_19_2016/data/simulated/data_profile_rf.json | 0.01 | f60c4aef08683fdf07b3fac9ae17a415351048a6 |
+| /jinvass26_replication_may_19_2016/code/simulate/sim_c6c_estimate_cost_mhhet.R | 0.02 | 0880999a30431207d4aebd21e5bfed0155ba0dbf |
+| /jinvass26_replication_may_19_2016/data/estimates/regression_output/appendix/fig_c1_regression.json | 0.02 | 77e1722315857b0f8fb4dfe73bb2f8000b5040d6 |
+| /jinvass26_replication_may_19_2016/data/estimates/regression_output/fig_4_regression.json | 0.02 | da35901f4dd29c318f74af8eb73ce06312209b2b |
+| /jinvass26_replication_may_19_2016/code/simulate/sim_c8b_ctf_robustness.R | 0.02 | f15607081834254c4f22d3fbb045abee8ae06106 |
+| /jinvass26_replication_may_19_2016/code/simulate/sim_c8_ctf_run.R | 0.02 | e1dcdc500fcf361c7590e380002df2f9ff176b5c |
+| /jinvass26_replication_may_19_2016/code/simulate/sim_c8c_ctf_mhhet_learning.R | 0.02 | 098170495d72f66a66d2c0226da620f51dfc84aa |
+| /jinvass26_replication_may_19_2016/code/simulate/sim_c8d_ctf_appendix_robustness.R | 0.02 | 55e5c51943e869c8cb8747898590f5ee2146b181 |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/ctf/ctf_calibration.R | 0.02 | b3744c3cbd1e6b636cd9efddd14a82dc280823b7 |
+| /jinvass26_replication_may_19_2016/paper/text/s2_background.tex | 0.02 | d966f85c48bf102c4f1cf1aa8da50e633a1dfeb9 |
+| /jinvass26_replication_may_19_2016/paper/text/s3_reduced_form.tex | 0.02 | 692c15e3560b96873c82d6f9f0590880c18a260f |
+| /jinvass26_replication_may_19_2016/code/simulate/sim_c5_selection_figures.R | 0.02 | 75a4d8f06d85cddb4732b6f5bbd2f71f86240d52 |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/data_clean/panel_renw_clean.R | 0.02 | c5ef224f92500a336715993be87df072173c8b2f |
+| /jinvass26_replication_may_19_2016/code/simulate/sim_c6_estimate.R | 0.02 | db15380d757d5fc3a712c87e3d696f3b699e2652 |
+| /jinvass26_replication_may_19_2016/data/estimates/regression_output/tab_3_regression.json | 0.02 | e77232989dac9dd7830c816571647e03ddb27068 |
+| /jinvass26_replication_may_19_2016/code/simulate/sim_c1_mh_regression.R | 0.02 | b259610b5bb7e9bfd3b42c6a66098cee1332bdaa |
+| /jinvass26_replication_may_19_2016/code/simulate/sim_c7_model_fit.R | 0.02 | 8fea48aff979992a5f7743f2cff032435aaacaf1 |
+| /jinvass26_replication_may_19_2016/README.md | 0.03 | c0de0cb6ed33d685eab7ab882653b4f93851c03d |
+| /jinvass26_replication_may_19_2016/paper/literature.bib | 0.03 | f1c9297567d5fb368df22a966c2c8d2944b37b54 |
+| /jinvass26_replication_may_19_2016/code/simulate/sim_c0_sum_stat.R | 0.03 | 70cb7c0db1e5bcb76e82f53f597c1dfe0cb2ec79 |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/ctf/get_ctf_util_profit.R | 0.03 | f33317f6bbd8022667d2a175363ef249a9838595 |
+| /jinvass26_replication_may_19_2016/paper/text/s6_counterfactual.tex | 0.03 | fca060d2fc6ea6bb82160f881682d2f27da234b1 |
+| /jinvass26_replication_may_19_2016/paper/text/s4_model.tex | 0.03 | 08a3a37c58cca730c831945026553a296cd3ff85 |
+| /jinvass26_replication_may_19_2016/code/c3_get_fitctf_exhibits.R | 0.03 | 7d53079eb933e5efa7d19860a99054dd50ba5cb6 |
+| /jinvass26_replication_may_19_2016/data/estimates/regression_output/appendix/fig_b1b_regression.json | 0.04 | a9eacc238fda2818ed7315302ae13c5b9b411298 |
+| /jinvass26_replication_may_19_2016/COVER_LETTER_AND_CHANGE_SUMMARY.pdf | 0.04 | 863b2b5547e6500eeb06850a5ae7418ca12e2100 |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_cost/model_cost.stan | 0.05 | e5703b2db94d75fe06575a783ec366a0be708ab5 |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_cost_mhhet/model_cost_mhhet.stan | 0.05 | 079bd6ee208e3b360ae2bdf4acbbee2e3425cb0f |
+| /jinvass26_replication_may_19_2016/code/simulate/simulate_data/sim_generate_rf_data.R | 0.05 | fe081026792d87b5c35b519483eebf67cb7511ec |
+| /jinvass26_replication_may_19_2016/data/estimates/regression_output/fig_5_regression.json | 0.05 | 14981240ab46035dc2736247f6e4e48cd9b4c97d |
+| /jinvass26_replication_may_19_2016/code/c1_get_rf_exhibits.R | 0.05 | a97d8718cc11c9dd2f3b185bd8d515717a2ca1e4 |
+| /jinvass26_replication_may_19_2016/code/simulate/functions/ctf/ctf_equi_k_save_grid.R | 0.05 | c9b8b6f4c73d5b3db3729c94ab655eafebdb5a3a |
+| /jinvass26_replication_may_19_2016/code/c2_get_param_tables.R | 0.06 | 56709094d761773275352a1cc94287ebcd72fde3 |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_price/results/model_price.tar.gz | 0.06 | 6c113e5d93ed533c2de873d3e97ce2c7e906c363 |
+| /jinvass26_replication_may_19_2016/code/simulate/simulate_data/sim_generate_data_list.R | 0.07 | 4a53148995267ed083e1c297429d03ad8cc2840f |
+| /jinvass26_replication_may_19_2016/data/estimates/regression_output/appendix/fig_c2_c3_regression.json | 0.07 | 58e6b6e49ae12c1d6ab417283d7a5241e879d09f |
+| /jinvass26_replication_may_19_2016/data/precomputed/rf/appendix/fig_b2a.csv | 0.07 | f41d648578679a7d0ab49a3ed1f3821e5a1fb82d |
+| /jinvass26_replication_may_19_2016/paper/exhibits_static/fig_1a_static.png | 0.07 | ef46d0ad7cc9d7ace136fa3cd8825e1531338feb |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_main_2p/model_main_2p.stan | 0.07 | 9029401d57570242cf40f8eee74f67f20b2baeff |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_main/model_main.stan | 0.07 | 04080dbb606e5363c82682c911cfcd49863613d4 |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_main_4p/model_main_4p.stan | 0.08 | 56c72a8a9157c1cb2e756f1a1b9e9f4c9f4b58c1 |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_main_mhhet/model_main_mhhet.stan | 0.09 | 9e487c98e6dbeecbb157f51834b3b3353ac91cb9 |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_sev/results/model_sev.tar.gz | 0.09 | 30bb4fea9ebafcf7956936506f118ac080af795f |
+| /jinvass26_replication_may_19_2016/data/estimates/regression_output/appendix/tab_c1_regression.json | 0.1 | 3a3c56893fb663c20add4e53621e216f9b09e7e5 |
+| /jinvass26_replication_may_19_2016/data/estimates/regression_output/tab_2_regression.json | 0.1 | dd6551a52f423a3e30decfb98693b1b97deb9e11 |
+| /jinvass26_replication_may_19_2016/data/precomputed/rf/fig_2a.csv | 0.12 | 8a5eb29772621d1dc1146e123a0c7a7c1f6dbfaf |
+| /jinvass26_replication_may_19_2016/paper/exhibits_static/fig_1b_static.png | 0.13 | 9a819411e201775165cbc519dbc7441dd690f56d |
+| /jinvass26_replication_may_19_2016/paper/exhibits_static/fig_1d_static.png | 0.13 | c3bc976b267ede71fa45a764335caf556a8cb0ef |
+| /jinvass26_replication_may_19_2016/paper/exhibits_static/fig_1c_static.png | 0.14 | a00ebfd079ee02d9be167a7e01afadc9f81c3eef |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_cost/results/bootstrap-result-id-0.csv | 0.14 | 139b42cb1b473ebe5d08de4a9b1e8079ba2c284d |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_cost_mhhet/results/bootstrap-result-id-0.csv | 0.24 | 99e4224e1caee338870a1cb63bde8aba886ae583 |
+| /jinvass26_replication_may_19_2016/data/precomputed/model_fit/fig_6b.csv | 0.27 | db0b821d82f1a712de68822d09d89ed7d6cf6631 |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_main_2p/results/bootstrap-result-id-0.csv | 0.46 | 6b17c9ffc1fc7ffda429a35aa2dc408247520150 |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_main_4p/results/bootstrap-result-id-0.csv | 0.46 | 04bdb100cc724d74d55a285830961ccacfc04d8e |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_main/results/bootstrap-result-id-0.csv | 0.46 | 011106a0cbbc1dc4da8c3d04a6e63640f2c88910 |
+| /jinvass26_replication_may_19_2016/paper/exhibits_static/appendix/fig_a1_static.png | 0.84 | acc9687c715e93993129bbdbbd185e5656311b33 |
+| /jinvass26_replication_may_19_2016/data/precomputed/rf/appendix/fig_a4.csv | 1.26 | 87cad56e16c8b8c81530e1864eb2a7ad698fe5c3 |
+| /jinvass26_replication_may_19_2016/paper/exhibits_static/appendix/fig_a2_static.png | 1.8 | 59a37fe9918a2c91e790f4fcc482576df14a2cee |
+| /jinvass26_replication_may_19_2016/data/precomputed/rf/fig_2b.csv | 1.88 | d1bfbb649a85002c2af467531d02e2d5df8ee54c |
+| /jinvass26_replication_may_19_2016/data/simulated/data_profile_data_list.json | 2.46 | 174947ba7d87904a309b42e1cb6e35ab60608d9c |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_cost/results/model_cost.tar.gz | 7.79 | eb33cb0bc2095a56645342c644ba3278fcb3177d |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_cost_mhhet/results/model_cost_mhhet.tar.gz | 7.84 | 1475f05524adc4fb66af67eec1ba1ea801b33155 |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_main_4p/results/model_main_4p.tar.gz | 14.03 | e9a795783cec58d295345ebb521f9bacbcbd3978 |
+| /jinvass26_replication_may_19_2016/output/simulated/cached/cached-main.tar.gz | 14.96 | 213a5812bfa97872e47e50049969ee50ddbe3f76 |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_main_2p/results/model_main_2p.tar.gz | 15.23 | 6eae9ba62c2da803d03e2207749589f03ce4f06b |
+| /jinvass26_replication_may_19_2016/data/estimates/model_output/model_main/results/model_main.tar.gz | 15.24 | 53997c403482256bbdcf23e6eee69adf0a45f334 |
+| /jinvass26_replication_may_19_2016/output/simulated/cached/cached-mhhet.tar.gz | 16.67 | d244a26d4cbed4c79f9e6b9043c9b0c7ad9985bd |
+| /jinvass26_replication_may_19_2016/output/simulated/cached/cached-4p.tar.gz | 19.88 | e9e434c944d1b64e9c6a4aa86f8238dc6058b667 |
+| /jinvass26_replication_may_19_2016/output/simulated/cached/cached-2p.tar.gz | 30.65 | a7e067ca388ec05ed3b3cf137967cbade4e9c901 |
+| /jinvass26_replication_may_19_2016/output/simulated/cached/cached-appendix-ctf-2.tar.gz | 46.37 | 47f4ab2fb641c345ce71b026c9dadbc41997a459 |
+| /jinvass26_replication_may_19_2016/output/simulated/cached/cached-appendix-ctf-1.tar.gz | 54.43 | 40fb4f4a6c0cacf66ed688dded4edcf94bc18db5 |

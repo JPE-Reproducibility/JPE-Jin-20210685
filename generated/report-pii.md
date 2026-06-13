@@ -5,8 +5,8 @@
 **Summary:**
 - Data files with PII indicators: 3
 - Variables flagged in data: 25
-- Code files with PII references: 52
-- PII references in code: 1739
+- Code files with PII references: 61
+- PII references in code: 2015
 
 ### Summary of Flagged Files
 
@@ -18,8 +18,8 @@
 | Code | `bootstrap_helpers.R` | 25 | name, lat |
 | Code | `c1_get_rf_exhibits.R` | 95 | lon, son, name, second, city, coord, lat, block, loc, zip |
 | Code | `c2_get_param_tables.R` | 177 | lat, name, lon, second, lname, block, loc, zip |
-| Code | `c3_get_fitctf_exhibits.R` | 32 | son, lat, lon, name, block, loc, coord |
-| Code | `config.R` | 17 | lat, block, loc, son |
+| Code | `c3_get_fitctf_exhibits.R` | 35 | son, lat, lon, name, block, loc, coord |
+| Code | `config.R` | 18 | lat, block, loc, son |
 | Code | `ctf_calibration.R` | 10 | lat, name, lname |
 | Code | `ctf_clear_cache.R` | 1 | name |
 | Code | `ctf_equi_k_find_equilibria.R` | 1 | lat |
@@ -27,13 +27,15 @@
 | Code | `ctf_preload.R` | 22 | block, loc, lat, lname, name |
 | Code | `ctf_table_helpers.R` | 18 | lat, name, lon |
 | Code | `extract_model_estimates_cmdstan.R` | 41 | name, block, loc, lat |
+| Code | `fig_b3_override.R` | 15 | lat, loc, second, name |
 | Code | `find_cycles.R` | 12 | lat, name, lon |
 | Code | `getX.R` | 9 | name, loc, zip, lat, lname |
 | Code | `get_c_latentparams.R` | 10 | lname, name, lat |
+| Code | `get_cp_pred.R` | 1 | lat, second |
 | Code | `get_ctf_util_profit.R` | 57 | lat, second, zip, lon |
 | Code | `get_d_latentparams.R` | 7 | lat, block, loc |
 | Code | `get_d_pred.R` | 39 | lat, block, loc, zip, second |
-| Code | `get_fit_cp.R` | 14 | lat, name, lname |
+| Code | `get_fit_cp.R` | 16 | lat, block, loc, name, lname |
 | Code | `get_next_rrev.R` | 7 | lat, name |
 | Code | `load_estimation_bootstrap_data.R` | 22 | lat, son, zip, lname, name |
 | Code | `load_model_data.R` | 21 | name, block, loc, zip |
@@ -43,7 +45,7 @@
 | Code | `paper.tex` | 2 | lat |
 | Code | `paper_setting.tex` | 6 | name, lat, url |
 | Code | `run_all.R` | 13 | son, name, lat |
-| Code | `run_simulated.R` | 57 | lat, son, name |
+| Code | `run_simulated.R` | 65 | lat, son, name |
 | Code | `s0_thanks.tex` | 3 | school, name, son |
 | Code | `s1_introduction.tex` | 7 | son, lon, lat |
 | Code | `s2_background.tex` | 7 | lat, degree, zip, son, second |
@@ -61,11 +63,18 @@
 | Code | `sim_c3_demand_elast.R` | 27 | city, son, lat, lname, name, second, coord |
 | Code | `sim_c4_data_figures.R` | 24 | lat, name, lname, son |
 | Code | `sim_c5_selection_figures.R` | 62 | son, lat, lname, name, loc, zip, lon |
-| Code | `sim_c6_estimate.R` | 35 | lat, son, name, block, loc, lname |
-| Code | `sim_c7_model_fit.R` | 62 | lat, lon, block, loc, name, son, second |
+| Code | `sim_c6_estimate.R` | 40 | lat, son, name, block, loc, lname, zip |
+| Code | `sim_c6b_estimate_robustness.R` | 17 | lat, name, block, loc |
+| Code | `sim_c6c_estimate_cost_mhhet.R` | 25 | lat, name, zip, block, loc |
+| Code | `sim_c7_model_fit.R` | 64 | lat, lon, block, loc, name, son, second |
+| Code | `sim_c7b_model_fit_mhhet.R` | 35 | block, loc, lat, name, lon, son, second |
 | Code | `sim_c8_ctf_run.R` | 59 | lat, name, son, block, loc, second, lon |
+| Code | `sim_c8b_ctf_robustness.R` | 57 | lat, name, lon, son, block, loc, second, lname |
+| Code | `sim_c8c_ctf_mhhet_learning.R` | 49 | lat, name, lon, son, block, loc, second, lname |
+| Code | `sim_c8d_ctf_appendix_robustness.R` | 47 | lat, name, lon, son, block, loc, second, lname |
 | Code | `sim_generate_data_list.R` | 158 | son, lat, name, lname, lon, block, loc, zip |
 | Code | `sim_generate_rf_data.R` | 104 | lat, son, name, lname, loc, zip, city, sex |
 | Code | `sim_helpers.R` | 58 | lat, son, name, lname |
+| Code | `tab_a12_horizon_rescale.R` | 9 | lat, loc, name |
 
 *See [Appendix](report-pii-appendix.md) for detailed listing of all flagged instances.*

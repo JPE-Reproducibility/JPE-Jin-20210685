@@ -1,18 +1,18 @@
 ## Appendix: Detailed PII Detection Results
 
-*Generated on 2026-04-02 12:27:38*
+*Generated on 2026-06-13 09:29:44*
 
 This appendix lists all detected instances of potential personally identifiable information (PII) in the project files. Each entry shows the matched PII terms and, for data files, sample values to help verify whether the flagged content is indeed sensitive.
 
 ### Data Files
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/LICENSE.txt**
+**/replication-package/jinvass26_replication_may_19_2016/LICENSE.txt**
 
 - Variable: `to any person obtaining a copy`
   - Matched terms: son
   - Sample values: 
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/tab_5.csv**
+**/replication-package/jinvass26_replication_may_19_2016/data/precomputed/model_fit/tab_5.csv**
 
 - Variable: `block1_data`
   - Matched terms: block, loc
@@ -51,7 +51,7 @@ This appendix lists all detected instances of potential personally identifiable 
   - Matched terms: block, loc
   - Sample values: NA, 45, 21
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/data/precomputed/model_fit/tab_c2_block2.csv**
+**/replication-package/jinvass26_replication_may_19_2016/data/precomputed/model_fit/tab_c2_block2.csv**
 
 - Variable: `block1_data`
   - Matched terms: block, loc
@@ -92,7 +92,7 @@ This appendix lists all detected instances of potential personally identifiable 
 
 ### Code Files
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/c1_get_rf_exhibits.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/c1_get_rf_exhibits.R**
 
 - Line 27: lon
   ```
@@ -475,7 +475,7 @@ This appendix lists all detected instances of potential personally identifiable 
   } # end disabled paper compilation block
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/c2_get_param_tables.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/c2_get_param_tables.R**
 
 - Line 8: lat
   ```
@@ -1173,20 +1173,20 @@ This appendix lists all detected instances of potential personally identifiable 
   ```
   names(data_vals) <- header
   ```
-- Line 1303: lat
+- Line 1307: lat
   ```
   # Build LaTeX table matching existing format
   ```
-- Line 1341: name
+- Line 1345: name
   ```
   parameter = names(bs_mean),
   ```
-- Line 1346: name
+- Line 1350: name
   ```
   write.csv(c3_csv, file.path(MODEL_TAB_DIR, "tab_c3.csv"), row.names = FALSE)
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/c3_get_fitctf_exhibits.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/c3_get_fitctf_exhibits.R**
 
 - Line 32: son
   ```
@@ -1276,48 +1276,60 @@ This appendix lists all detected instances of potential personally identifiable 
   ```
   "$^{1}$~Units are given in brackets. ``$\\Delta$'' denotes changes relative to the ``No Monitoring''
   ```
-- Line 616: lat
+- Line 615: name
   ```
-  list(csv = "tab_7.csv",    tex = "tab_7.tex",              caption = "Counterfactual Simulation Resu
+  # NOTE: CSV filenames here use a sequential index that does NOT match the rendered
   ```
-- Line 617: lat
+- Line 617: block, loc
   ```
-  list(csv = "tab_a9.csv",   tex = "appendix/tab_a9.tex",    caption = "Counterfactual Simulation Resu
+  # concatenated table environments (model fit + choice shares appendix block),
   ```
-- Line 618: lat
+- Line 621: name
   ```
-  list(csv = "tab_a10.csv",  tex = "appendix/tab_a10.tex",   caption = "Counterfactual Simulation Resu
-  ```
-- Line 619: lat
-  ```
-  list(csv = "tab_a11.csv",  tex = "appendix/tab_a11.tex",   caption = "Counterfactual Simulation Resu
-  ```
-- Line 620: lat
-  ```
-  list(csv = "tab_a12.csv",  tex = "appendix/tab_a12.tex",   caption = "Counterfactual Simulation Resu
-  ```
-- Line 621: lat
-  ```
-  list(csv = "tab_a13.csv",  tex = "appendix/tab_a13.tex",   caption = "Counterfactual Simulation Resu
-  ```
-- Line 622: lat
-  ```
-  list(csv = "tab_a14.csv",  tex = "appendix/tab_a14.tex",   caption = "Counterfactual Simulation Resu
+  # Body-section and Tab A.x numbering match the filenames as expected.
   ```
 - Line 623: lat
   ```
-  list(csv = "tab_a15.csv",  tex = "appendix/tab_a15.tex",   caption = "Counterfactual Simulation Resu
+  list(csv = "tab_7.csv",    tex = "tab_7.tex",              caption = "Counterfactual Simulation Resu
   ```
 - Line 624: lat
   ```
-  list(csv = "tab_c4.csv",   tex = "appendix/tab_c4.tex",    caption = "Counterfactual Simulation Resu
+  list(csv = "tab_a9.csv",   tex = "appendix/tab_a9.tex",    caption = "Counterfactual Simulation Resu
   ```
 - Line 625: lat
+  ```
+  list(csv = "tab_a10.csv",  tex = "appendix/tab_a10.tex",   caption = "Counterfactual Simulation Resu
+  ```
+- Line 626: lat
+  ```
+  list(csv = "tab_a11.csv",  tex = "appendix/tab_a11.tex",   caption = "Counterfactual Simulation Resu
+  ```
+- Line 627: lat
+  ```
+  list(csv = "tab_a12.csv",  tex = "appendix/tab_a12.tex",   caption = "Counterfactual Simulation Resu
+  ```
+- Line 628: lat
+  ```
+  list(csv = "tab_a13.csv",  tex = "appendix/tab_a13.tex",   caption = "Counterfactual Simulation Resu
+  ```
+- Line 629: lat
+  ```
+  list(csv = "tab_a14.csv",  tex = "appendix/tab_a14.tex",   caption = "Counterfactual Simulation Resu
+  ```
+- Line 630: lat
+  ```
+  list(csv = "tab_a15.csv",  tex = "appendix/tab_a15.tex",   caption = "Counterfactual Simulation Resu
+  ```
+- Line 631: lat
+  ```
+  list(csv = "tab_c4.csv",   tex = "appendix/tab_c4.tex",    caption = "Counterfactual Simulation Resu
+  ```
+- Line 632: lat
   ```
   list(csv = "tab_c5.csv",   tex = "appendix/tab_c5.tex",    caption = "Counterfactual Simulation Resu
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/config.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/config.R**
 
 - Line 4: lat
   ```
@@ -1375,20 +1387,24 @@ This appendix lists all detected instances of potential personally identifiable 
   ```
   IMAGES_DIR    <- "output/exhibits_simulated"
   ```
-- Line 68: lat
+- Line 69: lat
+  ```
+  # Simulated model_cost is estimated separately for Tab A.4 display only.
+  ```
+- Line 70: lat
   ```
   source("code/simulate/functions/sim_helpers.R")
   ```
-- Line 98: son
+- Line 100: son
   ```
   .sp <- jsonlite::fromJSON(file.path(SIM_DATA_DIR, "data_profile_data_list.json"))$estimation$sim_par
   ```
-- Line 134: lat
+- Line 136: lat
   ```
   if (USE_SIMULATED_DATA) {
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/bootstrap_helpers.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/functions/bootstrap_helpers.R**
 
 - Line 8: name
   ```
@@ -1491,7 +1507,7 @@ This appendix lists all detected instances of potential personally identifiable 
   body_rows <- paste(latex_rows, collapse = "\n")
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/ctf_table_helpers.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/functions/ctf_table_helpers.R**
 
 - Line 2: lat
   ```
@@ -1566,7 +1582,7 @@ This appendix lists all detected instances of potential personally identifiable 
   ## ---- Assemble full LaTeX ----
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/getX.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/functions/getX.R**
 
 - Line 9: name
   ```
@@ -1605,7 +1621,7 @@ This appendix lists all detected instances of potential personally identifiable 
   colnames(X_label_mat) <- c("vars", "name")
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/run_all.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/run_all.R**
 
 - Line 9: son
   ```
@@ -1660,7 +1676,7 @@ This appendix lists all detected instances of potential personally identifiable 
   cat("  WARNING: pdflatex not found or failed:", conditionMessage(e), "\n")
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/run_simulated.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/run_simulated.R**
 
 - Line 2: lat
   ```
@@ -1702,196 +1718,291 @@ This appendix lists all detected instances of potential personally identifiable 
   ```
   files <- list.files(dir_path, pattern = pattern, full.names = TRUE, recursive = TRUE)
   ```
-- Line 57: son
+- Line 58: name
+  ```
+  for (md in list.dirs(MODEL_OUT_DIR, recursive = FALSE, full.names = TRUE)) {
+  ```
+- Line 64: son
   ```
   clean_contents(RF_REG_DIR, pattern = "\\.json$")
   ```
-- Line 64: lat
+- Line 73: lat
   ```
   CACHE_DIR <- "output/simulated/cached"
   ```
-- Line 66: name
+- Line 75: name
   ```
-  cache_files <- list.files(CACHE_DIR, recursive = TRUE, full.names = TRUE)
+  cache_tarballs <- list.files(CACHE_DIR, pattern = "\\.tar\\.gz$", full.names = TRUE)
   ```
-- Line 69: name
+- Line 78: name
   ```
-  dir.create(dirname(dest), recursive = TRUE, showWarnings = FALSE)
+  cat("  Extracting cache:", basename(tarball), "\n")
   ```
-- Line 78: lat
+- Line 79: lat
+  ```
+  untar(tarball, exdir = "output/simulated")
+  ```
+- Line 90: lat
   ```
   ## Step 1: Generate simulated RF data (if not already generated)
   ```
-- Line 86: lat
+- Line 98: lat
   ```
   source("code/simulate/simulate_data/sim_generate_rf_data.R")
   ```
-- Line 100: lat
+- Line 112: lat
   ```
   stop("Missing simulated data files:\n  ", paste(missing, collapse = "\n  "),
   ```
-- Line 105: lat
+- Line 117: lat
   ```
   ## Step 2: Generate simulated data_list (if not already generated)
   ```
-- Line 113: lat
+- Line 125: lat
   ```
   source("code/simulate/simulate_data/sim_generate_data_list.R")
   ```
-- Line 119: lat, son
+- Line 131: lat, son
   ```
   ## Step 3: RF analysis (data_rf.csv -> output/simulated/ CSVs + JSONs)
   ```
-- Line 124: lat
+- Line 136: lat
   ```
   source("code/simulate/sim_c0_sum_stat.R")
   ```
-- Line 125: lat
+- Line 137: lat
   ```
   source("code/simulate/sim_c1_mh_regression.R")
   ```
-- Line 126: lat
+- Line 138: lat
   ```
   source("code/simulate/sim_c2_mh_viol.R")
   ```
-- Line 127: lat
+- Line 139: lat
   ```
   source("code/simulate/sim_c3_demand_elast.R")
   ```
-- Line 128: lat
+- Line 140: lat
   ```
   source("code/simulate/sim_c4_data_figures.R")
   ```
-- Line 129: lat
+- Line 141: lat
   ```
   source("code/simulate/sim_c5_selection_figures.R")
   ```
-- Line 141: lat
+- Line 153: lat
   ```
   "USE_SIMULATED_DATA <- TRUE; ",
   ```
-- Line 153: lat
+- Line 165: lat
   ```
   run_step("code/simulate/sim_c6_estimate.R", "Step 4a: Structural estimation")
   ```
-- Line 154: lat
+- Line 166: lat
   ```
   run_step("code/simulate/sim_c7_model_fit.R", "Step 4b: Model fit")
   ```
-- Line 160: lat
+- Line 167: lat
+  ```
+  run_step("code/simulate/sim_c6b_estimate_robustness.R", "Step 4c: Robustness estimation (2p/4p)")
+  ```
+- Line 168: lat
+  ```
+  run_step("code/simulate/sim_c6c_estimate_cost_mhhet.R", "Step 4d: Cost MH-het estimation")
+  ```
+- Line 169: lat
+  ```
+  run_step("code/simulate/sim_c7b_model_fit_mhhet.R", "Step 4e: MH-het model fit (Tab C.2)")
+  ```
+- Line 175: lat
   ```
   ## Step 5: CTF simulation (requires CmdStan + estimation output)
   ```
-- Line 164: lat
+- Line 179: lat
   ```
-  run_step("code/simulate/sim_c8_ctf_run.R", "Step 5: CTF simulation")
+  run_step("code/simulate/sim_c8_ctf_run.R", "Step 5a: CTF simulation (main)")
   ```
-- Line 173: lat
+- Line 180: lat
+  ```
+  run_step("code/simulate/sim_c8b_ctf_robustness.R", "Step 5b: CTF robustness (2p/4p)")
+  ```
+- Line 181: lat
+  ```
+  run_step("code/simulate/sim_c8c_ctf_mhhet_learning.R", "Step 5c: CTF mhhet + learning")
+  ```
+- Line 182: lat
+  ```
+  run_step("code/simulate/sim_c8d_ctf_appendix_robustness.R", "Step 5d: CTF appendix robustness (A.9-A
+  ```
+- Line 191: lat
   ```
   cat("\n--- Step 6: Generating exhibits (simulated mode) ---\n")
   ```
-- Line 175: son
+- Line 193: son
   ```
   cat("  RF JSONs: ", RF_REG_DIR, "\n")
   ```
-- Line 178: lat
+- Line 196: lat
   ```
   ## Extract bootstrap archives (no-op for simulated unless estimation was run)
   ```
-- Line 180: name
+- Line 198: name
   ```
   model_dirs <- list.dirs(MODEL_OUT_DIR, recursive = FALSE, full.names = TRUE)
   ```
-- Line 184: name
+- Line 202: name
   ```
   archives <- list.files(results_dir, pattern = "\\.tar\\.gz$", full.names = TRUE)
   ```
-- Line 189: name
+- Line 207: name
   ```
   cat("Extracting", basename(archive), "...\n")
   ```
-- Line 197: lat
+- Line 215: lat
   ```
   ## c2: param tables — requires bootstrap CSVs (may not exist in simulated mod
   ```
-- Line 207: lat
+- Line 225: lat
   ```
   ## Step 7: Compile paper_simulated.pdf
   ```
-- Line 210: lat
+- Line 228: lat
   ```
   cat("\n--- Compiling paper_simulated.pdf ---\n")
   ```
-- Line 219: lat
+- Line 237: lat
   ```
   ## Override \exhibitpath to point to simulated exhibits.
   ```
-- Line 223: lat
+- Line 241: lat
   ```
   run_latex <- function(label) {
   ```
-- Line 225: lat, name
+- Line 243: lat, name
   ```
   "pdflatex -interaction=nonstopmode -jobname=paper_simulated ",
   ```
-- Line 226: lat
+- Line 244: lat
   ```
   "'\\def\\exhibitpath{../output/exhibits_simulated}\\input{paper.tex}' ",
   ```
-- Line 232: lat
+- Line 250: lat
   ```
   cat("  Pass 1: pdflatex...\n"); run_latex("pass1")
   ```
-- Line 234: lat
+- Line 252: lat
   ```
   system2("biber", args = "paper_simulated",
   ```
-- Line 237: lat
+- Line 255: lat
   ```
   cat("  Pass 3: pdflatex...\n"); run_latex("pass3")
   ```
-- Line 238: lat
+- Line 256: lat
   ```
   cat("  Pass 4: pdflatex...\n"); run_latex("pass4")
   ```
-- Line 241: lat
+- Line 259: lat
   ```
   artifacts <- list.files(".", pattern = "^paper_simulated\\.(aux|bbl|bcf|blg|log|out|run\\.xml|syncte
   ```
-- Line 242: name
+- Line 260: name
   ```
   full.names = TRUE)
   ```
-- Line 243: name
+- Line 261: name
   ```
   if (length(artifacts) > 0) file.rename(artifacts, file.path("log", basename(artifacts)))
   ```
-- Line 245: lat
+- Line 263: lat
   ```
   if (file.exists("paper_simulated.pdf")) {
   ```
-- Line 246: lat
+- Line 264: lat
   ```
   cat("  paper_simulated.pdf compiled (",
   ```
-- Line 247: lat
+- Line 265: lat
   ```
   round(file.size("paper_simulated.pdf") / 1e6, 1), "MB).",
   ```
-- Line 250: lat
+- Line 268: lat
   ```
   cat("  WARNING: paper_simulated.pdf not produced. Check paper/log/\n")
   ```
-- Line 255: lat
+- Line 273: lat
   ```
   cat("  WARNING: pdflatex not found or failed:", conditionMessage(e), "\n")
   ```
-- Line 259: lat
+- Line 277: lat
   ```
   cat("\nDone. Simulated exhibits written to:", TABLES_DIR, "\n")
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/ctf_calibration.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/fig_b3_override.R**
+
+- Line 2: lat
+  ```
+  ## fig_b3_override.R — illustration-only override for Fig B.3 in paper_simulated.p
+  ```
+- Line 5: lat
+  ```
+  ##   Overwrites output/simulated/precomputed/model_fit/fig_b3.csv with values
+  ```
+- Line 7: lat
+  ```
+  ##   evaluated at the simulated-pipeline's leps and llambda. Mirrors exactly the
+  ```
+- Line 12: lat
+  ```
+  ##   The main simulated pipeline uses score_scale = 0.4 in sim_generate_data_list.R
+  ```
+- Line 13: lat
+  ```
+  ##   (necessary because simulated `leps` has wider variance than real-data `leps`
+  ```
+- Line 14: lat
+  ```
+  ##   for TM participants, which would otherwise inflate the leps -> discount
+  ```
+- Line 16: lat
+  ```
+  ##   dampened by 60%, hiding the relationship.
+  ```
+- Line 19: lat
+  ```
+  ##   score~risk relationship looks like at full slope. It does NOT modify
+  ```
+- Line 23: lat
+  ```
+  ## ISOLATION GUARANTEES
+  ```
+- Line 27: lat
+  ```
+  ##   - Writes: output/simulated/precomputed/model_fit/fig_b3.csv (overwrite only)
+  ```
+- Line 42: loc
+  ```
+  local({
+  ```
+- Line 43: lat, loc
+  ```
+  source("code/simulate/functions/sim_helpers.R", local = FALSE)
+  ```
+- Line 54: lat
+  ```
+  ## llambda_clm - leps_n_clm) and the CTF path (get_d_latentparams.R:241):
+  ```
+- Line 55: second
+  ```
+  ## the second column is the BASELINE log-rate excluding leps. Fixed in
+  ```
+- Line 97: name
+  ```
+  write.csv(out_csv, file.path(MODEL_FIT_DIR, "fig_b3.csv"), row.names = FALSE)
+  ```
+
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/ctf/ctf_calibration.R**
 
 - Line 5: lat
   ```
@@ -1934,21 +2045,21 @@ This appendix lists all detected instances of potential personally identifiable 
   cat("calibration results saved as: ", calibration_save_filename,"\n")
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/ctf_clear_cache.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/ctf/ctf_clear_cache.R**
 
 - Line 21: name
   ```
   files <- list.files(bootstrap_ctf_dir, pattern = pat, full.names = TRUE)
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/ctf_equi_k_find_equilibria.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/ctf/ctf_equi_k_find_equilibria.R**
 
 - Line 7: lat
   ```
   # A profile is an equilibrium if neither firm can unilaterally deviate to increase profit.
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/ctf_equi_k_save_grid.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/ctf/ctf_equi_k_save_grid.R**
 
 - Line 10: lat
   ```
@@ -2083,7 +2194,7 @@ This appendix lists all detected instances of potential personally identifiable 
   saveRDS(out_ds, ds_save_filename)
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/ctf_preload.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/ctf/ctf_preload.R**
 
 - Line 8: block, loc
   ```
@@ -2174,7 +2285,7 @@ This appendix lists all detected instances of potential personally identifiable 
   mkt_share_oo <- unname(IL_OO_MKT_SHARES)
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/find_cycles.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/ctf/find_cycles.R**
 
 - Line 4: lat
   ```
@@ -2225,7 +2336,7 @@ This appendix lists all detected instances of potential personally identifiable 
   results_all <- find_all_cycles_simulation(analysis_data, start_states_to_check = all_unique_states)
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/get_ctf_util_profit.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/ctf/get_ctf_util_profit.R**
 
 - Line 59: lat, second
   ```
@@ -2456,7 +2567,7 @@ This appendix lists all detected instances of potential personally identifiable 
   cp_second_period = cp_second_period,
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/data_clean/get_next_rrev.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/data_clean/get_next_rrev.R**
 
 - Line 2: lat
   ```
@@ -2487,7 +2598,7 @@ This appendix lists all detected instances of potential personally identifiable 
   rename( new_rrev_date_rank_asc = rrev_order_asc
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/data_clean/panel_renw_clean.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/data_clean/panel_renw_clean.R**
 
 - Line 15: zip
   ```
@@ -2622,7 +2733,7 @@ This appendix lists all detected instances of potential personally identifiable 
   # , tier_fctr_mkt_cmnty_cd = as.factor(CMNTY_CD) # community code (Boston, Community within MA vs wi
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/extract_model_estimates_cmdstan.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/estimation/extract_model_estimates_cmdstan.R**
 
 - Line 5: name
   ```
@@ -2789,7 +2900,7 @@ This appendix lists all detected instances of potential personally identifiable 
   source('code/simulate/functions/estimation/get_d_latentparams.R')
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/get_c_latentparams.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/estimation/get_c_latentparams.R**
 
 - Line 4: lname, name
   ```
@@ -2832,7 +2943,14 @@ This appendix lists all detected instances of potential personally identifiable 
   source('code/simulate/functions/estimation/load_model_data.R')
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/get_d_latentparams.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/estimation/get_cp_pred.R**
+
+- Line 54: lat, second
+  ```
+  # and the CTF-facing path (get_d_latentparams.R:241): the second column is the
+  ```
+
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/estimation/get_d_latentparams.R**
 
 - Line 1: lat
   ```
@@ -2863,7 +2981,7 @@ This appendix lists all detected instances of potential personally identifiable 
   d_by_block[2], d_by_block[4]);
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/get_d_pred.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/estimation/get_d_pred.R**
 
 - Line 19: lat
   ```
@@ -3022,7 +3140,7 @@ This appendix lists all detected instances of potential personally identifiable 
   perobs_cv_clm_severe = sum(log_likelihoods_clm_count_severe_cv)/sum(cv_sample_size_by_block)
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/get_fit_cp.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/estimation/get_fit_cp.R**
 
 - Line 11: lat
   ```
@@ -3036,52 +3154,60 @@ This appendix lists all detected instances of potential personally identifiable 
   ```
   source('code/simulate/functions/estimation/get_cp_pred.R')
   ```
-- Line 27: name
+- Line 27: lat
   ```
-  df_fit_score_tm = rr_tm %>% as_tibble() %>% rename(rr = value) %>%
+  ## sim_c7b's later call would clobber sim_c7's version with mhhet-context
   ```
-- Line 40: name
+- Line 30: lat
   ```
-  write.csv(fig_b3_csv, file.path(MODEL_FIT_DIR, "fig_b3.csv"), row.names = FALSE)
+  ## see that file's header for full rationale and isolation guarantees.
+  ```
+- Line 38: block, loc
+  ```
+  ## (see comment block above), so it's not in this gate.
+  ```
+- Line 39: name
+  ```
+  .skip_fig_writes <- exists("model_name") && identical(model_name, "model_main_mhhet")
   ```
 - Line 51: name
   ```
   write.csv(fig_6b_csv, file.path(MODEL_FIT_DIR, "fig_6b.csv"), row.names = FALSE)
   ```
-- Line 57: lname, name
+- Line 58: lname, name
   ```
   p_R_nb_mean = matrix(rep(0, I * D_R_nb_scheme), I, D_R_nb_scheme); colnames(p_R_nb_mean) = seq(D_R_n
   ```
-- Line 58: lname, name
+- Line 59: lname, name
   ```
   p_R_tm_mean = matrix(rep(0, I * D_R_tm_scheme), I, D_R_tm_scheme); colnames(p_R_tm_mean) = paste0("t
   ```
-- Line 59: lname, name
+- Line 60: lname, name
   ```
   p_R_nb_sd = matrix(rep(0, I * D_R_nb_scheme), I, D_R_nb_scheme); colnames(p_R_nb_sd) = seq(D_R_nb_sc
   ```
-- Line 60: lname, name
+- Line 61: lname, name
   ```
   p_R_tm_sd = matrix(rep(0, I * D_R_tm_scheme), I, D_R_tm_scheme); colnames(p_R_tm_sd) = paste0("tm", 
   ```
-- Line 61: lname, name
+- Line 62: lname, name
   ```
   log_score_mean = matrix(rep(0, I * D_R_tm_scheme), I, D_R_tm_scheme); colnames(log_score_mean) = pas
   ```
-- Line 62: lname, name
+- Line 63: lname, name
   ```
   log_score_sd = matrix(rep(0, I * D_R_tm_scheme), I, D_R_tm_scheme); colnames(log_score_sd) = paste0(
   ```
-- Line 116: name
+- Line 118: name
   ```
   write.csv(fig_b4_csv, file.path(MODEL_FIT_DIR, "fig_b4.csv"), row.names = FALSE)
   ```
-- Line 122: name
+- Line 126: name
   ```
   write.csv(fig_6a_csv, file.path(MODEL_FIT_DIR, "fig_6a.csv"), row.names = FALSE)
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/load_estimation_bootstrap_data.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/estimation/load_estimation_bootstrap_data.R**
 
 - Line 2: lat, son
   ```
@@ -3172,7 +3298,7 @@ This appendix lists all detected instances of potential personally identifiable 
   if (!exists("parse_bootstrap_csv")) source("code/simulate/functions/sim_helpers.R")
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/load_model_data.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/estimation/load_model_data.R**
 
 - Line 1: name
   ```
@@ -3259,7 +3385,7 @@ This appendix lists all detected instances of potential personally identifiable 
   for(k in names(est_config_obj)){
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/load_sim_data.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/load_sim_data.R**
 
 - Line 4: name
   ```
@@ -3378,7 +3504,7 @@ This appendix lists all detected instances of potential personally identifiable 
   cat("[load_sim_data]", panel_name, ":", nrow(dataset), "rows,", ncol(dataset), "cols\n")
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/sim_helpers.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/sim_helpers.R**
 
 - Line 2: lat
   ```
@@ -3613,7 +3739,7 @@ This appendix lists all detected instances of potential personally identifiable 
   colnames(dl$prices_oo_full) <- as.vector(outer(OO_FIRMS, oo_covs, paste, sep = "_"))
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c0_sum_stat.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c0_sum_stat.R**
 
 - Line 8: son
   ```
@@ -4048,7 +4174,7 @@ This appendix lists all detected instances of potential personally identifiable 
   cat("    ->", file.path(RF_CSV_DIR, "appendix", "tab_a1a2_summary.json"), "\n")
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c1_mh_regression.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c1_mh_regression.R**
 
 - Line 2: lat
   ```
@@ -4495,7 +4621,7 @@ This appendix lists all detected instances of potential personally identifiable 
   "model_select_list", "all_models_flat",
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c2_mh_viol.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c2_mh_viol.R**
 
 - Line 2: lat
   ```
@@ -4598,7 +4724,7 @@ This appendix lists all detected instances of potential personally identifiable 
   cat("  Saved JSON:", file.path(RF_REG_DIR, "appendix", "fig_c4_regression.json"), "\n")
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c3_demand_elast.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c3_demand_elast.R**
 
 - Line 2: city
   ```
@@ -4709,7 +4835,7 @@ This appendix lists all detected instances of potential personally identifiable 
   ylab("Price Elasticity Estimates")
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c4_data_figures.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c4_data_figures.R**
 
 - Line 9: lat
   ```
@@ -4808,7 +4934,7 @@ This appendix lists all detected instances of potential personally identifiable 
   file.path(RF_CSV_DIR, "fig_3.csv"), row.names = FALSE)
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c5_selection_figures.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c5_selection_figures.R**
 
 - Line 6: son
   ```
@@ -5059,7 +5185,7 @@ This appendix lists all detected instances of potential personally identifiable 
   cat("  [GEN] appendix/fig_b1b_regression.json\n")
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c6_estimate.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c6_estimate.R**
 
 - Line 2: lat
   ```
@@ -5169,40 +5295,234 @@ This appendix lists all detected instances of potential personally identifiable 
   ```
   paste0(model_name, "-", log_suffix, ".stan")),
   ```
-- Line 179: name
+- Line 184: name
   ```
   if (f %in% names(sim_data_list)) sev_data[[f]] <- sim_data_list[[f]]
   ```
-- Line 217: lname, name
+- Line 223: lname, name
   ```
   if ("theta_0_pareto_alpha_severe" %in% colnames(sev_mle))
   ```
-- Line 219: lname, name
+- Line 225: lname, name
   ```
   if ("theta_0_sev_minor_mean" %in% colnames(sev_mle))
   ```
-- Line 221: lname, name
+- Line 227: lname, name
   ```
   if ("sev_minor_sd" %in% colnames(sev_mle))
   ```
-- Line 261: name
+- Line 272: name
   ```
   if (f %in% names(sim_data_list)) price_data[[f]] <- sim_data_list[[f]]
   ```
-- Line 376: block, loc
+- Line 357: zip
+  ```
+  "X_choice", "X_rc_choice", "zip_income",
+  ```
+- Line 375: block, loc
+  ```
+  "d_tm_mh_rational_ind", "d_by_block",
+  ```
+- Line 380: name
+  ```
+  if (f %in% names(sim_data_list) && !is.null(sim_data_list[[f]]))
+  ```
+- Line 384: zip
+  ```
+  if (is.null(cost_data$zip_income)) cost_data$zip_income <- rep(0, sim_data_list$N_choice)
+  ```
+- Line 386: block, loc
+  ```
+  cost_data$run_demand_blocks <- rep(0L, sim_data_list$N_choice_regimes)
+  ```
+- Line 505: block, loc
   ```
   "run_estimation", "run_demand_blocks", "d_by_block", "d_tm_mh_rational_ind",
   ```
-- Line 387: name
+- Line 516: name
   ```
   if (f %in% names(sim_data_list) && !is.null(sim_data_list[[f]])) {
   ```
-- Line 400: block, loc
+- Line 529: block, loc
   ```
   stan_data$run_demand_blocks <- stan_data$run_demand_blocks %||% 1L
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c7_model_fit.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c6b_estimate_robustness.R**
+
+- Line 10: lat
+  ```
+  if (!exists("SIM_DATA_DIR")) { USE_SIMULATED_DATA <- TRUE; source("code/config.R") }
+  ```
+- Line 11: lat
+  ```
+  source("code/simulate/functions/sim_helpers.R")
+  ```
+- Line 28: name
+  ```
+  if (!requireNamespace("cmdstanr", quietly = TRUE))
+  ```
+- Line 34: name
+  ```
+  build_init <- function(model_name) {
+  ```
+- Line 35: name
+  ```
+  sim_csv <- file.path(MODEL_OUT_DIR, model_name,
+  ```
+- Line 44: name
+  ```
+  real_csv <- file.path("data/estimates/model_output", model_name,
+  ```
+- Line 57: name
+  ```
+  save_model_output <- function(fit, model_name, stan_path) {
+  ```
+- Line 58: name
+  ```
+  out_dir <- file.path(MODEL_OUT_DIR, model_name, "results")
+  ```
+- Line 71: name
+  ```
+  model_dir <- file.path(MODEL_OUT_DIR, model_name)
+  ```
+- Line 74: name
+  ```
+  output_filename = paste0(model_name, "-", log_suffix, ".csv"),
+  ```
+- Line 75: name
+  ```
+  model_filename = paste0(model_name, "-", log_suffix, ".stan"),
+  ```
+- Line 78: name
+  ```
+  save(log_file_obj, file = file.path(model_dir, paste0("log_", model_name, "-", log_suffix, ".Rda")))
+  ```
+- Line 81: name
+  ```
+  paste0(model_name, "-", log_suffix, ".stan")),
+  ```
+- Line 130: block, loc
+  ```
+  "run_estimation", "run_demand_blocks", "d_by_block", "d_tm_mh_rational_ind",
+  ```
+- Line 138: name
+  ```
+  if (f %in% names(sim_data_list) && !is.null(sim_data_list[[f]]))
+  ```
+- Line 142: block, loc
+  ```
+  stan_data$run_demand_blocks <- stan_data$run_demand_blocks %||% 1L
+  ```
+- Line 152: block, loc
+  ```
+  # (converges in 1-2 iters but ensures GQ block runs and output is fresh)
+  ```
+
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c6c_estimate_cost_mhhet.R**
+
+- Line 2: lat
+  ```
+  ## sim_c6c_estimate_cost_mhhet.R — Estimate model_cost_mhhet on simulated da
+  ```
+- Line 8: lat
+  ```
+  if (!exists("SIM_DATA_DIR")) { USE_SIMULATED_DATA <- TRUE; source("code/config.R") }
+  ```
+- Line 9: lat
+  ```
+  source("code/simulate/functions/sim_helpers.R")
+  ```
+- Line 26: name
+  ```
+  if (!requireNamespace("cmdstanr", quietly = TRUE))
+  ```
+- Line 32: name
+  ```
+  build_init <- function(model_name) {
+  ```
+- Line 33: name
+  ```
+  sim_csv <- file.path(MODEL_OUT_DIR, model_name,
+  ```
+- Line 42: name
+  ```
+  real_csv <- file.path("data/estimates/model_output", model_name,
+  ```
+- Line 83: zip
+  ```
+  "X_choice", "X_rc_choice", "zip_income",
+  ```
+- Line 107: block, loc
+  ```
+  "d_tm_mh_rational_ind", "d_by_block",
+  ```
+- Line 117: name
+  ```
+  if (f %in% names(sim_data_list) && !is.null(sim_data_list[[f]])) {
+  ```
+- Line 125: name
+  ```
+  if (is.null(stan_data$X_rc_clm) && "X_rc" %in% names(sim_data_list)) {
+  ```
+- Line 136: zip
+  ```
+  # zip_income: if not in data_list, use zeros
+  ```
+- Line 137: zip
+  ```
+  if (is.null(stan_data$zip_income)) {
+  ```
+- Line 138: zip
+  ```
+  stan_data$zip_income <- rep(0, sim_data_list$N_choice)
+  ```
+- Line 139: zip
+  ```
+  missing_fields <- setdiff(missing_fields, "zip_income")
+  ```
+- Line 144: block, loc
+  ```
+  stan_data$run_demand_blocks <- rep(0L, sim_data_list$N_choice_regimes)
+  ```
+- Line 230: name
+  ```
+  output_filename = paste0(mn, "-", log_suffix, ".csv"),
+  ```
+- Line 231: name
+  ```
+  model_filename = paste0(mn, "-", log_suffix, ".stan"),
+  ```
+- Line 313: block, loc
+  ```
+  "run_estimation", "run_demand_blocks", "d_by_block", "d_tm_mh_rational_ind",
+  ```
+- Line 321: name
+  ```
+  if (f %in% names(sim_data_list) && !is.null(sim_data_list[[f]]))
+  ```
+- Line 325: block, loc
+  ```
+  stan_data2$run_demand_blocks <- stan_data2$run_demand_blocks %||% 1L
+  ```
+- Line 328: name
+  ```
+  if ("X_rc" %in% names(sim_data_list)) {
+  ```
+- Line 385: name
+  ```
+  output_filename = paste0(mn2, "-", log_suffix2, ".csv"),
+  ```
+- Line 386: name
+  ```
+  model_filename = paste0(mn2, "-", log_suffix2, ".stan"),
+  ```
+- Line 394: block, loc
+  ```
+  d_by_block = sim_data_list$d_by_block %||% 6L,
+  ```
+
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c7_model_fit.R**
 
 - Line 11: lat
   ```
@@ -5216,244 +5536,395 @@ This appendix lists all detected instances of potential personally identifiable 
   ```
   source("code/simulate/functions/sim_helpers.R")
   ```
-- Line 19: lat
+- Line 20: lat
   ```
   ## These format model-fit .txt output into publication-ready LaTeX tables.
   ```
-- Line 73: lon
+- Line 74: lon
   ```
   for (i in seq_along(tab_lines)) {
   ```
-- Line 90: lon
+- Line 91: lon
   ```
   for (i in seq_along(parts)) {
   ```
-- Line 113: block, loc
+- Line 114: block, loc
   ```
   "Block [0-9]", "Type & Label", "^\\s*\\\\multicolumn\\{2\\}\\{c\\}"
   ```
-- Line 124: block, loc
+- Line 125: block, loc
   ```
   n_blocks <- (n_cells_first - 2) / 2
   ```
-- Line 126: block, loc
+- Line 127: block, loc
   ```
   if (n_blocks >= 6) {
   ```
-- Line 197: name
+- Line 198: name
   ```
   lbl <- if (label %in% names(cov_map)) cov_map[label] else label
   ```
-- Line 215: name
+- Line 216: name
   ```
   lbl <- if (label %in% names(cov_map)) cov_map[label] else label
   ```
-- Line 236: block, loc
+- Line 237: block, loc
   ```
   ## two blocks (risk/score/pricing and demand/choice), applies formatting,
   ```
-- Line 269: block, loc
+- Line 270: block, loc
   ```
   # Split into two blocks at \footnotesize delimiter
   ```
-- Line 272: block, loc
+- Line 273: block, loc
   ```
   stop("Could not split fit_tbl into two blocks (no \\footnotesize found) in: ", txt_path)
   ```
-- Line 275: block, loc
+- Line 276: block, loc
   ```
   block1_lines <- fit_tbl_raw[1:(footnotesize_line[1] - 1)]
   ```
-- Line 276: block, loc
+- Line 277: block, loc
   ```
   block2_lines <- fit_tbl_raw[footnotesize_line[1]:length(fit_tbl_raw)]
   ```
-- Line 277: block, loc
+- Line 278: block, loc
   ```
   block1_lines <- block1_lines[nchar(block1_lines) > 0]
   ```
-- Line 278: block, loc
+- Line 279: block, loc
   ```
   block2_lines <- block2_lines[nchar(block2_lines) > 0]
   ```
-- Line 281: block, loc
+- Line 282: block, loc
   ```
   b1_ts <- grep("\\\\begin\\{tabular\\}", block1_lines)
   ```
-- Line 282: block, loc
+- Line 283: block, loc
   ```
   b1_te <- grep("\\\\end\\{tabular\\}", block1_lines)
   ```
-- Line 283: block, loc
+- Line 284: block, loc
   ```
   b2_ts <- grep("\\\\begin\\{tabular\\}", block2_lines)
   ```
-- Line 284: block, loc
+- Line 285: block, loc
   ```
   b2_te <- grep("\\\\end\\{tabular\\}", block2_lines)
   ```
-- Line 287: loc
+- Line 288: loc
   ```
   stop("Could not locate tabular environments in: ", txt_path)
   ```
-- Line 290: block, loc
+- Line 291: block, loc
   ```
   # Block 1 -> tab4 (risk/score/pricing)
   ```
-- Line 291: block, loc
+- Line 292: block, loc
   ```
   tabular1 <- paste(block1_lines[b1_ts[1]:b1_te[length(b1_te)]], collapse = "\n")
   ```
-- Line 312: block, loc
+- Line 313: block, loc
   ```
   # Block 2 -> tab5 (demand/choice)
   ```
-- Line 313: block, loc
+- Line 314: block, loc
   ```
   tabular2 <- paste(block2_lines[b2_ts[1]:b2_te[length(b2_te)]], collapse = "\n")
   ```
-- Line 340: name
+- Line 341: name
   ```
   model_name <- "model_main"
   ```
-- Line 350: lat
+- Line 351: lat
   ```
   ## and computes per-individual latent params (llambda, lambda, etc.)
   ```
-- Line 352: lat
+- Line 353: lat
   ```
   source("code/simulate/functions/estimation/extract_model_estimates_cmdstan.R")
   ```
-- Line 354: lat
+- Line 355: lat
   ```
   ## get_fit_cp.R sources get_c_latentparams.R + get_cp_pred.R, then builds
   ```
-- Line 357: lat
+- Line 358: lat
   ```
   source("code/simulate/functions/estimation/get_fit_cp.R")
   ```
-- Line 359: lat
+- Line 362: lat
   ```
-  ## get_d_latentparams.R computes demand-side latent params (risk_aversion,
-  ```
-- Line 360: lat
-  ```
-  ## sigma_logit, psi_mm, xi, etc.) needed for choice probability calculation
-  ```
-- Line 361: lat
-  ```
-  cat("  Computing demand latent parameters...\n")
+  ## header for full isolation guarantees and rationale).
   ```
 - Line 363: lat
   ```
+  source("code/simulate/fig_b3_override.R")
+  ```
+- Line 365: lat
+  ```
+  ## get_d_latentparams.R computes demand-side latent params (risk_aversion,
+  ```
+- Line 366: lat
+  ```
+  ## sigma_logit, psi_mm, xi, etc.) needed for choice probability calculation
+  ```
+- Line 367: lat
+  ```
+  cat("  Computing demand latent parameters...\n")
+  ```
+- Line 369: lat
+  ```
   source("code/simulate/functions/estimation/get_d_latentparams.R")
   ```
-- Line 365: block, loc
+- Line 371: block, loc
   ```
   ## get_d_pred.R computes log_choice_probs for all 6 choice blocks
   ```
-- Line 368: lat
+- Line 374: lat
   ```
   source("code/simulate/functions/estimation/get_d_pred.R")
   ```
-- Line 394: lat
+- Line 400: lat
   ```
   # Pricing moments (first renewal = new business, latter = renewal)
   ```
-- Line 419: son
+- Line 425: son
   ```
   section = c(rep("Poisson claim counts", 4), rep("Monitoring score", 4),
   ```
-- Line 420: lat
+- Line 426: lat
   ```
   rep("First renewal pricing factor", 4), rep("Latter renewal pricing factor", 4)),
   ```
-- Line 421: second
+- Line 427: second
   ```
   moment = rep(c("first moment", "major claims", "second moment", "N"), 4),
   ```
-- Line 433: second
+- Line 439: second
   ```
   tab_4$moment[tab_4$section == "Monitoring score" & tab_4$moment == "major claims"] <- "second moment
   ```
-- Line 434: second
+- Line 440: second
   ```
   tab_4$moment[tab_4$section == "Monitoring score" & tab_4$moment == "second moment" &
   ```
-- Line 435: second
+- Line 441: second
   ```
   tab_4$data_value == round(score_m2_d, 6)] <- "second moment"
   ```
-- Line 436: second
+- Line 442: second
   ```
   # Reorder score rows: first moment, second moment, covariance with risk, N
   ```
-- Line 438: second
+- Line 444: second
   ```
   tab_4$moment[score_mask] <- c("first moment", "second moment", "covariance with risk", "N")
   ```
-- Line 440: name
+- Line 446: name
   ```
   write.csv(tab_4, file.path(MODEL_FIT_DIR, "tab_4.csv"), row.names = FALSE)
   ```
-- Line 454: block, loc
+- Line 460: block, loc
   ```
   .add_demand <- function(type, label, block, data_val, pred_val, scale_pct = TRUE) {
   ```
-- Line 457: block, loc
+- Line 463: block, loc
   ```
   type = type, label = label, block = as.integer(block),
   ```
-- Line 463: block, loc
+- Line 469: block, loc
   ```
   # Coverage share and selection by block
   ```
-- Line 469: lon
+- Line 475: lon
   ```
   for (j in seq_along(cov_labels_list[[k]])) {
   ```
-- Line 489: block, loc
+- Line 495: block, loc
   ```
   # TM share and selection (blocks 2, 4)
   ```
-- Line 506: block, loc
+- Line 512: block, loc
   ```
   # Attrition (blocks 5, 6)
   ```
-- Line 517: block, loc
+- Line 523: block, loc
   ```
   # N row for each block
   ```
-- Line 527: block, loc
+- Line 533: block, loc
   ```
   # Build wide with blockN_data, blockN_pred columns
   ```
-- Line 534: block, loc
+- Line 540: block, loc
   ```
   bsub <- sub[sub$block == b, ]
   ```
-- Line 536: block, loc
+- Line 542: block, loc
   ```
   row[[paste0("block", b, "_data")]] <- bsub$data_val[1]
   ```
-- Line 537: block, loc
+- Line 543: block, loc
   ```
   row[[paste0("block", b, "_pred")]] <- bsub$pred_val[1]
   ```
-- Line 539: block, loc
+- Line 545: block, loc
   ```
   row[[paste0("block", b, "_data")]] <- NA
   ```
-- Line 540: block, loc
+- Line 546: block, loc
   ```
   row[[paste0("block", b, "_pred")]] <- NA
   ```
-- Line 548: name
+- Line 554: name
   ```
   write.csv(tab_5, file.path(MODEL_FIT_DIR, "tab_5.csv"), row.names = FALSE)
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c8_ctf_run.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c7b_model_fit_mhhet.R**
+
+- Line 5: block, loc
+  ```
+  ## Produces: MODEL_FIT_DIR/tab_c2.csv, MODEL_FIT_DIR/tab_c2_block2.csv
+  ```
+- Line 8: lat
+  ```
+  if (!exists("MODEL_FIT_DIR")) { USE_SIMULATED_DATA <- TRUE; source("code/config.R") }
+  ```
+- Line 9: lat
+  ```
+  source("code/simulate/functions/sim_helpers.R")
+  ```
+- Line 22: name
+  ```
+  model_name <- "model_main_mhhet"
+  ```
+- Line 31: lat
+  ```
+  USE_SIMULATED_ESTIMATES <- TRUE
+  ```
+- Line 32: name
+  ```
+  sim_model_dir <- file.path(MODEL_OUT_DIR, model_name)
+  ```
+- Line 45: lat
+  ```
+  "   downstream Stan-model recompilation in extract_model_estimates_cmdstan.R\n",
+  ```
+- Line 48: lon
+  ```
+  "   so that sim_c6c writes a fresh log_*.Rda alongside the bootstrap CSV.)\n", sep = "")
+  ```
+- Line 57: name
+  ```
+  if (!"X_rc_clm" %in% names(dl_tmp) && "X_rc" %in% names(dl_tmp)) {
+  ```
+- Line 68: lat
+  ```
+  source("code/simulate/functions/estimation/extract_model_estimates_cmdstan.R")
+  ```
+- Line 71: lat
+  ```
+  source("code/simulate/functions/estimation/get_fit_cp.R")
+  ```
+- Line 73: lat
+  ```
+  cat("  Computing demand latent parameters...\n")
+  ```
+- Line 75: lat
+  ```
+  source("code/simulate/functions/estimation/get_d_latentparams.R")
+  ```
+- Line 78: lat
+  ```
+  source("code/simulate/functions/estimation/get_d_pred.R")
+  ```
+- Line 127: son
+  ```
+  section = c(rep("Poisson claim counts", 4), rep("Monitoring score", 4),
+  ```
+- Line 128: lat
+  ```
+  rep("First renewal pricing factor", 4), rep("Latter renewal pricing factor", 4)),
+  ```
+- Line 129: second
+  ```
+  moment = rep(c("first moment", "major claims", "second moment", "N"), 4),
+  ```
+- Line 141: second
+  ```
+  tab_c2$moment[score_mask] <- c("first moment", "second moment", "covariance with risk", "N")
+  ```
+- Line 143: name
+  ```
+  write.csv(tab_c2, file.path(MODEL_FIT_DIR, "tab_c2.csv"), row.names = FALSE)
+  ```
+- Line 146: block, loc
+  ```
+  ## ---- Build tab_c2_block2.csv (mirrors tab_5: Coverage Share, Selection %, TM
+  ```
+- Line 149: block, loc
+  ```
+  cat("  Building tab_c2_block2.csv...\n")
+  ```
+- Line 160: block, loc
+  ```
+  .add_demand <- function(type, label, block, data_val, pred_val, scale_pct = TRUE) {
+  ```
+- Line 163: block, loc
+  ```
+  type = type, label = label, block = as.integer(block),
+  ```
+- Line 169: block, loc
+  ```
+  # Coverage share and selection by block
+  ```
+- Line 175: lon
+  ```
+  for (j in seq_along(cov_labels_list[[k]])) {
+  ```
+- Line 195: block, loc
+  ```
+  # TM share and selection (blocks 2, 4)
+  ```
+- Line 212: block, loc
+  ```
+  # Attrition (blocks 5, 6)
+  ```
+- Line 223: block, loc
+  ```
+  # N row for each block
+  ```
+- Line 238: block, loc
+  ```
+  bsub <- sub[sub$block == b, ]
+  ```
+- Line 240: block, loc
+  ```
+  row[[paste0("block", b, "_data")]] <- bsub$data_val[1]
+  ```
+- Line 241: block, loc
+  ```
+  row[[paste0("block", b, "_pred")]] <- bsub$pred_val[1]
+  ```
+- Line 243: block, loc
+  ```
+  row[[paste0("block", b, "_data")]] <- NA
+  ```
+- Line 244: block, loc
+  ```
+  row[[paste0("block", b, "_pred")]] <- NA
+  ```
+- Line 251: block, loc, name
+  ```
+  write.csv(tab_c2b, file.path(MODEL_FIT_DIR, "tab_c2_block2.csv"), row.names = FALSE)
+  ```
+- Line 252: block, loc
+  ```
+  cat("    -> tab_c2_block2.csv\n")
+  ```
+
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c8_ctf_run.R**
 
 - Line 17: lat
   ```
@@ -5692,7 +6163,628 @@ This appendix lists all detected instances of potential personally identifiable 
   write.csv(tab_7_csv, tab_7_path, row.names = FALSE)
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/simulate_data/sim_generate_data_list.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c8b_ctf_robustness.R**
+
+- Line 15: lat
+  ```
+  if (!exists("SIM_DATA_DIR")) { USE_SIMULATED_DATA <- TRUE; source("code/config.R") }
+  ```
+- Line 23: name
+  ```
+  list(model_name = "model_main_2p", csv_name = "tab_a11.csv"),
+  ```
+- Line 24: name
+  ```
+  list(model_name = "model_main_4p", csv_name = "tab_a12.csv")
+  ```
+- Line 30: lon
+  ```
+  for (idx in seq_along(robustness_specs)) {
+  ```
+- Line 32: name
+  ```
+  cat("\n--- Dispatching", spec$model_name, "as subprocess ---\n")
+  ```
+- Line 34: lat
+  ```
+  "USE_SIMULATED_DATA <- TRUE; ",
+  ```
+- Line 39: lat
+  ```
+  "source('code/simulate/sim_c8b_ctf_robustness.R')"
+  ```
+- Line 42: name
+  ```
+  if (rc != 0) cat("  WARNING:", spec$model_name, "failed with exit code", rc, "\n")
+  ```
+- Line 52: name
+  ```
+  model_name <- spec$model_name
+  ```
+- Line 53: name
+  ```
+  ctf_output_csv <- spec$csv_name
+  ```
+- Line 56: name
+  ```
+  cat("Running CTF for:", model_name, "->", ctf_output_csv, "\n")
+  ```
+- Line 60: name
+  ```
+  est_csv <- file.path(MODEL_OUT_DIR, model_name, "results", "bootstrap-result-id-0.csv")
+  ```
+- Line 63: name
+  ```
+  stop("Estimation output missing for ", model_name)
+  ```
+- Line 72: son
+  ```
+  dl_profile <- jsonlite::fromJSON(file.path(SIM_DATA_DIR, "data_profile_data_list.json"))
+  ```
+- Line 75: lat
+  ```
+  USE_SIMULATED_ESTIMATES <- TRUE
+  ```
+- Line 77: name
+  ```
+  cat("Model:", model_name, "\n")
+  ```
+- Line 83: lat
+  ```
+  source("code/simulate/functions/sim_helpers.R")
+  ```
+- Line 85: name
+  ```
+  sim_model_dir <- file.path(MODEL_OUT_DIR, model_name)
+  ```
+- Line 98: lat
+  ```
+  cat("  Using simulated model dir:", sim_model_dir, "\n")
+  ```
+- Line 101: lat
+  ```
+  source("code/simulate/functions/estimation/extract_model_estimates_cmdstan.R")
+  ```
+- Line 119: name
+  ```
+  flex_oo_name <- ifelse(grepl("min_flex", ctf_oo_option), "min",
+  ```
+- Line 122: name
+  ```
+  bootstrap_ctf_dir <- file.path(MODEL_OUT_DIR, model_name, "ctf")
+  ```
+- Line 125: block, loc
+  ```
+  k_block_ctf <- K_BLOCK_CTF
+  ```
+- Line 135: lat
+  ```
+  if (USE_SIMULATED_DATA && !USE_CACHE) {
+  ```
+- Line 140: lat
+  ```
+  source("code/simulate/functions/ctf/ctf_clear_cache.R")
+  ```
+- Line 145: lat
+  ```
+  source("code/simulate/functions/ctf/ctf_preload.R")
+  ```
+- Line 156: lat
+  ```
+  source("code/simulate/functions/ctf/ctf_calibration.R")
+  ```
+- Line 160: lat
+  ```
+  ## ---- Regime Calculation ---------------------------------------------------
+  ```
+- Line 162: lat
+  ```
+  cat("Step 5: Setting up regime calculation...\n")
+  ```
+- Line 163: lat
+  ```
+  source("code/simulate/functions/sim_helpers.R")  # for get_samp_wgt_avg
+  ```
+- Line 173: name
+  ```
+  varnames <- c(
+  ```
+- Line 175: second
+  ```
+  "cp_own", "cp_own_second_period", "cp_tm",
+  ```
+- Line 183: lat
+  ```
+  calculate_regime_vars <- function(unmonitored_surcharge, opt_in_discount,
+  ```
+- Line 189: lat
+  ```
+  source("code/simulate/functions/ctf/get_ctf_util_profit.R")
+  ```
+- Line 205: second
+  ```
+  cp_t2 <- out$cp_second_period
+  ```
+- Line 225: second
+  ```
+  cp_own_second_period_var <- get_samp_wgt_avg(rowSums(cp_t2[, 1:J]), sampling_weight) * 100
+  ```
+- Line 244: second
+  ```
+  assign(paste0("cp_own_second_period_", suffix), cp_own_second_period_var, envir = .GlobalEnv)
+  ```
+- Line 263: lat
+  ```
+  calculate_regime_vars(0, (1 - OPT_IN_FTR) * 100, 100, 100, 0, NA, NA, "current")
+  ```
+- Line 266: lat
+  ```
+  calculate_regime_vars(0, NA, NA, NA, 0, NA, NA, "no_monitoring")
+  ```
+- Line 273: lat
+  ```
+  source("code/simulate/functions/ctf/ctf_equi_k_save_grid.R")
+  ```
+- Line 281: lat
+  ```
+  calculate_regime_vars(
+  ```
+- Line 288: lat
+  ```
+  calculate_regime_vars(
+  ```
+- Line 295: lat
+  ```
+  calculate_regime_vars(
+  ```
+- Line 303: lat
+  ```
+  calculate_regime_vars(
+  ```
+- Line 322: name
+  ```
+  df_ctf_results <- data.frame(matrix(NA, nrow = length(regimes), ncol = length(varnames)))
+  ```
+- Line 323: lname, name
+  ```
+  colnames(df_ctf_results) <- metrics
+  ```
+- Line 324: lon
+  ```
+  for (i in seq_along(suffixes)) {
+  ```
+- Line 325: lon, name
+  ```
+  for (j in seq_along(varnames)) {
+  ```
+- Line 326: name
+  ```
+  val <- get0(paste0(varnames[j], "_", suffixes[i]))
+  ```
+- Line 367: name
+  ```
+  write.csv(csv_df, csv_path, row.names = FALSE)
+  ```
+- Line 371: lat
+  ```
+  ## simulated welfare/surplus magnitudes close to real-data tab_a12. See
+  ```
+- Line 372: lat
+  ```
+  ## tab_a12_horizon_rescale.R header for rationale + isolation guarantees.
+  ```
+- Line 373: name
+  ```
+  if (model_name == "model_main_4p") {
+  ```
+- Line 374: lat
+  ```
+  source("code/simulate/tab_a12_horizon_rescale.R")
+  ```
+- Line 385: name
+  ```
+  rds_name <- ifelse(model_name == "model_main_2p", "ctf_tab_a11_2p.rds", "ctf_tab_a12_4p.rds")
+  ```
+- Line 386: name
+  ```
+  saveRDS(final_results, file.path(CTF_DIR, rds_name))
+  ```
+- Line 388: name
+  ```
+  cat("\n", model_name, "CTF complete.\n")
+  ```
+
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c8c_ctf_mhhet_learning.R**
+
+- Line 16: lat
+  ```
+  if (!exists("SIM_DATA_DIR")) { USE_SIMULATED_DATA <- TRUE; source("code/config.R") }
+  ```
+- Line 24: name
+  ```
+  list(config_suffix = "mhhet",   csv_name = "tab_c4.csv", rds_name = "ctf_tab_c4_mhhet.rds"),
+  ```
+- Line 25: name
+  ```
+  list(config_suffix = "learning", csv_name = "tab_c5.csv", rds_name = "ctf_tab_c5_learning.rds")
+  ```
+- Line 31: lon
+  ```
+  for (idx in seq_along(robustness_specs)) {
+  ```
+- Line 35: lat
+  ```
+  "USE_SIMULATED_DATA <- TRUE; ",
+  ```
+- Line 40: lat
+  ```
+  "source('code/simulate/sim_c8c_ctf_mhhet_learning.R')"
+  ```
+- Line 54: name
+  ```
+  cat("Running CTF for:", spec$config_suffix, "->", spec$csv_name, "\n")
+  ```
+- Line 63: name
+  ```
+  model_name <- if (spec$config_suffix == "mhhet") "model_main_mhhet" else "model_main"
+  ```
+- Line 65: son
+  ```
+  dl_profile <- jsonlite::fromJSON(file.path(SIM_DATA_DIR, "data_profile_data_list.json"))
+  ```
+- Line 68: lat
+  ```
+  USE_SIMULATED_ESTIMATES <- TRUE
+  ```
+- Line 74: lat
+  ```
+  source("code/simulate/functions/sim_helpers.R")
+  ```
+- Line 76: name
+  ```
+  sim_model_dir <- file.path(MODEL_OUT_DIR, model_name)
+  ```
+- Line 89: lat
+  ```
+  cat("  Using simulated model dir:", sim_model_dir, "\n")
+  ```
+- Line 96: name
+  ```
+  if (!"X_rc_clm" %in% names(dl_tmp) && "X_rc" %in% names(dl_tmp)) {
+  ```
+- Line 105: name
+  ```
+  # For mhhet: model_name = "model_main_mhhet" → model_config = "mhhe
+  ```
+- Line 108: name
+  ```
+  # For learning: model_name = "model_main" → model_config = 
+  ```
+- Line 110: lat
+  ```
+  source("code/simulate/functions/estimation/extract_model_estimates_cmdstan.R")
+  ```
+- Line 134: name
+  ```
+  flex_oo_name <- ifelse(grepl("min_flex", ctf_oo_option), "min",
+  ```
+- Line 138: name
+  ```
+  bootstrap_ctf_dir <- file.path(MODEL_OUT_DIR, model_name, paste0("ctf_", spec$config_suffix))
+  ```
+- Line 141: block, loc
+  ```
+  k_block_ctf <- K_BLOCK_CTF
+  ```
+- Line 151: lat
+  ```
+  if (USE_SIMULATED_DATA && !USE_CACHE) {
+  ```
+- Line 156: lat
+  ```
+  source("code/simulate/functions/ctf/ctf_clear_cache.R")
+  ```
+- Line 161: lat
+  ```
+  source("code/simulate/functions/ctf/ctf_preload.R")
+  ```
+- Line 172: lat
+  ```
+  source("code/simulate/functions/ctf/ctf_calibration.R")
+  ```
+- Line 176: lat
+  ```
+  ## ---- Regime Calculation ---------------------------------------------------
+  ```
+- Line 178: lat
+  ```
+  cat("Step 5: Setting up regime calculation...\n")
+  ```
+- Line 179: lat
+  ```
+  source("code/simulate/functions/sim_helpers.R")
+  ```
+- Line 189: name
+  ```
+  varnames <- c(
+  ```
+- Line 191: second
+  ```
+  "cp_own", "cp_own_second_period", "cp_tm",
+  ```
+- Line 199: lat
+  ```
+  calculate_regime_vars <- function(unmonitored_surcharge, opt_in_discount,
+  ```
+- Line 205: lat
+  ```
+  source("code/simulate/functions/ctf/get_ctf_util_profit.R")
+  ```
+- Line 221: second
+  ```
+  cp_t2 <- out$cp_second_period
+  ```
+- Line 241: second
+  ```
+  cp_own_second_period_var <- get_samp_wgt_avg(rowSums(cp_t2[, 1:J]), sampling_weight) * 100
+  ```
+- Line 260: second
+  ```
+  assign(paste0("cp_own_second_period_", suffix), cp_own_second_period_var, envir = .GlobalEnv)
+  ```
+- Line 279: lat
+  ```
+  calculate_regime_vars(0, (1 - OPT_IN_FTR) * 100, 100, 100, 0, NA, NA, "current")
+  ```
+- Line 282: lat
+  ```
+  calculate_regime_vars(0, NA, NA, NA, 0, NA, NA, "no_monitoring")
+  ```
+- Line 289: lat
+  ```
+  source("code/simulate/functions/ctf/ctf_equi_k_save_grid.R")
+  ```
+- Line 297: lat
+  ```
+  calculate_regime_vars(
+  ```
+- Line 304: lat
+  ```
+  calculate_regime_vars(
+  ```
+- Line 311: lat
+  ```
+  calculate_regime_vars(
+  ```
+- Line 319: lat
+  ```
+  calculate_regime_vars(
+  ```
+- Line 338: name
+  ```
+  df_ctf_results <- data.frame(matrix(NA, nrow = length(regimes), ncol = length(varnames)))
+  ```
+- Line 339: lname, name
+  ```
+  colnames(df_ctf_results) <- metrics
+  ```
+- Line 340: lon
+  ```
+  for (i in seq_along(suffixes)) {
+  ```
+- Line 341: lon, name
+  ```
+  for (j in seq_along(varnames)) {
+  ```
+- Line 342: name
+  ```
+  val <- get0(paste0(varnames[j], "_", suffixes[i]))
+  ```
+- Line 381: name
+  ```
+  csv_path <- file.path(CTF_DIR, spec$csv_name)
+  ```
+- Line 382: name
+  ```
+  write.csv(csv_df, csv_path, row.names = FALSE)
+  ```
+- Line 392: name
+  ```
+  saveRDS(final_results, file.path(CTF_DIR, spec$rds_name))
+  ```
+
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c8d_ctf_appendix_robustness.R**
+
+- Line 19: lat
+  ```
+  if (!exists("SIM_DATA_DIR")) { USE_SIMULATED_DATA <- TRUE; source("code/config.R") }
+  ```
+- Line 29: name
+  ```
+  csv_name = "tab_a9.csv", rds_name = "ctf_tab_a9_low_cost.rds",
+  ```
+- Line 37: name
+  ```
+  csv_name = "tab_a10.csv", rds_name = "ctf_tab_a10_high_cost.rds",
+  ```
+- Line 45: name
+  ```
+  csv_name = "tab_a13.csv", rds_name = "ctf_tab_a13_unconst.rds",
+  ```
+- Line 53: name
+  ```
+  csv_name = "tab_a14.csv", rds_name = "ctf_tab_a14_minmed.rds",
+  ```
+- Line 61: name
+  ```
+  csv_name = "tab_a15.csv", rds_name = "ctf_tab_a15_medflex.rds",
+  ```
+- Line 73: lon
+  ```
+  for (idx in seq_along(robustness_specs)) {
+  ```
+- Line 77: lat
+  ```
+  "USE_SIMULATED_DATA <- TRUE; ",
+  ```
+- Line 82: lat
+  ```
+  "source('code/simulate/sim_c8d_ctf_appendix_robustness.R')"
+  ```
+- Line 99: name
+  ```
+  cat("Running CTF:", spec$label, "->", spec$csv_name, "\n")
+  ```
+- Line 107: name
+  ```
+  model_name <- "model_main"
+  ```
+- Line 109: son
+  ```
+  dl_profile <- jsonlite::fromJSON(file.path(SIM_DATA_DIR, "data_profile_data_list.json"))
+  ```
+- Line 112: lat
+  ```
+  USE_SIMULATED_ESTIMATES <- TRUE
+  ```
+- Line 118: lat
+  ```
+  source("code/simulate/functions/sim_helpers.R")
+  ```
+- Line 120: name
+  ```
+  sim_model_dir <- file.path(MODEL_OUT_DIR, model_name)
+  ```
+- Line 133: lat
+  ```
+  source("code/simulate/functions/estimation/extract_model_estimates_cmdstan.R")
+  ```
+- Line 150: name
+  ```
+  flex_oo_name <- ifelse(grepl("min_flex", ctf_oo_option), "min",
+  ```
+- Line 153: name
+  ```
+  bootstrap_ctf_dir <- file.path(MODEL_OUT_DIR, model_name, spec$ctf_subdir)
+  ```
+- Line 156: block, loc
+  ```
+  k_block_ctf <- K_BLOCK_CTF
+  ```
+- Line 169: lat
+  ```
+  if (USE_SIMULATED_DATA && !USE_CACHE) {
+  ```
+- Line 174: lat
+  ```
+  source("code/simulate/functions/ctf/ctf_clear_cache.R")
+  ```
+- Line 179: lat
+  ```
+  source("code/simulate/functions/ctf/ctf_preload.R")
+  ```
+- Line 190: lat
+  ```
+  source("code/simulate/functions/ctf/ctf_calibration.R")
+  ```
+- Line 194: lat
+  ```
+  ## ---- Regime Calculation ---------------------------------------------------
+  ```
+- Line 196: lat
+  ```
+  cat("Step 5: Setting up regime calculation...\n")
+  ```
+- Line 206: name
+  ```
+  varnames <- c(
+  ```
+- Line 208: second
+  ```
+  "cp_own", "cp_own_second_period", "cp_tm",
+  ```
+- Line 216: lat
+  ```
+  calculate_regime_vars <- function(unmonitored_surcharge, opt_in_discount,
+  ```
+- Line 222: lat
+  ```
+  source("code/simulate/functions/ctf/get_ctf_util_profit.R")
+  ```
+- Line 238: second
+  ```
+  cp_t2 <- out$cp_second_period
+  ```
+- Line 258: second
+  ```
+  cp_own_second_period_var <- get_samp_wgt_avg(rowSums(cp_t2[, 1:J]), sampling_weight) * 100
+  ```
+- Line 277: second
+  ```
+  assign(paste0("cp_own_second_period_", suffix), cp_own_second_period_var, envir = .GlobalEnv)
+  ```
+- Line 296: lat
+  ```
+  calculate_regime_vars(0, (1 - OPT_IN_FTR) * 100, 100, 100, 0, NA, NA, "current")
+  ```
+- Line 299: lat
+  ```
+  calculate_regime_vars(0, NA, NA, NA, 0, NA, NA, "no_monitoring")
+  ```
+- Line 306: lat
+  ```
+  source("code/simulate/functions/ctf/ctf_equi_k_save_grid.R")
+  ```
+- Line 314: lat
+  ```
+  calculate_regime_vars(
+  ```
+- Line 321: lat
+  ```
+  calculate_regime_vars(
+  ```
+- Line 328: lat
+  ```
+  calculate_regime_vars(
+  ```
+- Line 336: lat
+  ```
+  calculate_regime_vars(
+  ```
+- Line 355: name
+  ```
+  df_ctf_results <- data.frame(matrix(NA, nrow = length(regimes), ncol = length(varnames)))
+  ```
+- Line 356: lname, name
+  ```
+  colnames(df_ctf_results) <- metrics
+  ```
+- Line 357: lon
+  ```
+  for (i in seq_along(suffixes)) {
+  ```
+- Line 358: lon, name
+  ```
+  for (j in seq_along(varnames)) {
+  ```
+- Line 359: name
+  ```
+  val <- get0(paste0(varnames[j], "_", suffixes[i]))
+  ```
+- Line 398: name
+  ```
+  csv_path <- file.path(CTF_DIR, spec$csv_name)
+  ```
+- Line 399: name
+  ```
+  write.csv(csv_df, csv_path, row.names = FALSE)
+  ```
+- Line 409: name
+  ```
+  saveRDS(final_results, file.path(CTF_DIR, spec$rds_name))
+  ```
+
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/simulate_data/sim_generate_data_list.R**
 
 - Line 2: son
   ```
@@ -6327,7 +7419,7 @@ This appendix lists all detected instances of potential personally identifiable 
   cat("  NOTE: Pipeline uses RDS (not JSON) for estimation/CTF. JSON losses are informational only.\n"
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/simulate_data/sim_generate_rf_data.R**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/simulate_data/sim_generate_rf_data.R**
 
 - Line 7: lat, son
   ```
@@ -6746,7 +7838,46 @@ This appendix lists all detected instances of potential personally identifiable 
   cat("  Rscript code/simulate/simulate_data/sim_generate_data_list.R\n")
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/format/packages.tex**
+**/replication-package/jinvass26_replication_may_19_2016/code/simulate/tab_a12_horizon_rescale.R**
+
+- Line 10: lat
+  ```
+  ##   cost_factors against simulated market shares, which produces calibrated
+  ```
+- Line 12: lat
+  ```
+  ##   per-year dollar magnitudes are inflated by ~4/3 relative to the real-data
+  ```
+- Line 20: lat
+  ```
+  ## ISOLATION GUARANTEES
+  ```
+- Line 21: lat
+  ```
+  ##   - Reads:  output/simulated/precomputed/ctf/tab_a12.csv (just written by sim_c8b)
+  ```
+- Line 22: lat
+  ```
+  ##   - Writes: output/simulated/precomputed/ctf/tab_a12.csv (overwrite)
+  ```
+- Line 32: loc
+  ```
+  local({
+  ```
+- Line 38: lat
+  ```
+  k <- 4 / 3   # horizon-driven inflation factor (sim/real on welfare/surplus)
+  ```
+- Line 43: name
+  ```
+  if (c %in% names(d)) d[[c]] <- d[[c]] / k
+  ```
+- Line 45: name
+  ```
+  write.csv(d, tab_a12_path, row.names = FALSE)
+  ```
+
+**/replication-package/jinvass26_replication_may_19_2016/paper/format/packages.tex**
 
 - Line 2: lat
   ```
@@ -6777,7 +7908,7 @@ This appendix lists all detected instances of potential personally identifiable 
   \definecolor{harvardcrimson}{rgb}{0.79, 0.0, 0.09}
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/format/paper_setting.tex**
+**/replication-package/jinvass26_replication_may_19_2016/paper/format/paper_setting.tex**
 
 - Line 12: name
   ```
@@ -6804,7 +7935,7 @@ This appendix lists all detected instances of potential personally identifiable 
   {\def\RSlemtxt{lemma~}\newref{lem}{name = \RSlemtxt}}
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/paper.tex**
+**/replication-package/jinvass26_replication_may_19_2016/paper/paper.tex**
 
 - Line 39: lat
   ```
@@ -6815,7 +7946,7 @@ This appendix lists all detected instances of potential personally identifiable 
   \section{Related Literature and Conclusion}\label{sec:related_lit_and_conclusion}
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/sa_add_figs.tex**
+**/replication-package/jinvass26_replication_may_19_2016/paper/text/appendix/sa_add_figs.tex**
 
 - Line 56: lon
   ```
@@ -6826,7 +7957,7 @@ This appendix lists all detected instances of potential personally identifiable 
   Here, $m$ is an indicator for finishing monitoring and $s$ denotes the monitoring scores. The latter
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/sb_firm_pricing.tex**
+**/replication-package/jinvass26_replication_may_19_2016/paper/text/appendix/sb_firm_pricing.tex**
 
 - Line 8: lon
   ```
@@ -6849,7 +7980,7 @@ This appendix lists all detected instances of potential personally identifiable 
   {\footnotesize \emph{Notes: }The X-axis represents the estimated Poisson risk arrival rate while the
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/sc_robust.tex**
+**/replication-package/jinvass26_replication_may_19_2016/paper/text/appendix/sc_robust.tex**
 
 - Line 13: lon
   ```
@@ -6876,7 +8007,7 @@ This appendix lists all detected instances of potential personally identifiable 
   \caption{At-Fault Accident Violation Progression by Monitoring Groups \label{fig:rf-mh-viol}}
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s0_thanks.tex**
+**/replication-package/jinvass26_replication_may_19_2016/paper/text/s0_thanks.tex**
 
 - Line 2: school
   ```
@@ -6891,7 +8022,7 @@ This appendix lists all detected instances of potential personally identifiable 
   James Savage, Steve Tadelis, Andrew Sweeting, John Wells, Thomas Wollmann, and various seminar parti
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s1_introduction.tex**
+**/replication-package/jinvass26_replication_may_19_2016/paper/text/s1_introduction.tex**
 
 - Line 1: son
   ```
@@ -6922,7 +8053,7 @@ This appendix lists all detected instances of potential personally identifiable 
   The paper proceeds as follows. Section 1 describes our data and provides background information on a
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s2_background.tex**
+**/replication-package/jinvass26_replication_may_19_2016/paper/text/s2_background.tex**
 
 - Line 5: lat
   ```
@@ -6940,20 +8071,20 @@ This appendix lists all detected instances of potential personally identifiable 
   ```
   \Cref{tab:sum_stat}a presents summary statistics of prices, coverage levels, and claims. The average
   ```
-- Line 92: lat
+- Line 90: lat
   ```
   {\footnotesize \emph{Notes: }(a) plots the density of the (natural) log of monitoring score for all 
   ```
-- Line 97: son
+- Line 95: son
   ```
   \caption{Comparison of subsequent claim cost across monitoring groups \label{fig:rf-info-bin}}
   ```
-- Line 100: second
+- Line 97: second
   ```
   {\footnotesize \emph{Notes: }This is a bin-scatter plot comparing average claim counts in the second
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s3_reduced_form.tex**
+**/replication-package/jinvass26_replication_may_19_2016/paper/text/s3_reduced_form.tex**
 
 - Line 8: son
   ```
@@ -7032,7 +8163,7 @@ This appendix lists all detected instances of potential personally identifiable 
   In Sections \ref{sec:demand_model} and \ref{sec:estimation}, we estimate a structural model of accid
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s4_model.tex**
+**/replication-package/jinvass26_replication_may_19_2016/paper/text/s4_model.tex**
 
 - Line 1: lon
   ```
@@ -7060,7 +8191,7 @@ This appendix lists all detected instances of potential personally identifiable 
   ```
 - Line 67: zip
   ```
-  This distinction is conceptually important because the minimum coverage option in our Illinois panel
+  This distinction is conceptually important because the minimum coverage option in our focal-state pa
   ```
 - Line 77: lon
   ```
@@ -7087,7 +8218,7 @@ This appendix lists all detected instances of potential personally identifiable 
   As we showed in \Cref{subsec:rf_demand}, the average price elasticity estimated within narrow window
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s5_estimates.tex**
+**/replication-package/jinvass26_replication_may_19_2016/paper/text/s5_estimates.tex**
 
 - Line 3: lon, son
   ```
@@ -7126,7 +8257,7 @@ This appendix lists all detected instances of potential personally identifiable 
   In a three-period model, lower switching costs make the period-0 decision easier to undo at renewals
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s6_counterfactual.tex**
+**/replication-package/jinvass26_replication_may_19_2016/paper/text/s6_counterfactual.tex**
 
 - Line 1: lat, son
   ```
@@ -7193,7 +8324,7 @@ This appendix lists all detected instances of potential personally identifiable 
   Table \ref{tab:ctf_robust_med} simulates a scenario in which we switch the focal competitor with the
   ```
 
-**/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s7_conclusion.tex**
+**/replication-package/jinvass26_replication_may_19_2016/paper/text/s7_conclusion.tex**
 
 - Line 7: lat
   ```

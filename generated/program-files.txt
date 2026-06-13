@@ -1,114 +1,65 @@
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/c1_get_rf_exhibits.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/c2_get_param_tables.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/c3_get_fitctf_exhibits.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/config.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/run_all.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/run_simulated.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/bootstrap_helpers.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/ctf_table_helpers.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/getX.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/helper.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c0_sum_stat.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c1_mh_regression.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c2_mh_viol.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c3_demand_elast.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c4_data_figures.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c5_selection_figures.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c6_estimate.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c7_model_fit.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/sim_c8_ctf_run.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/load_sim_data.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/sim_helpers.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/ctf_calibration.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/ctf_clear_cache.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/ctf_equi_k_find_equilibria.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/ctf_equi_k_save_grid.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/ctf_preload.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/find_cycles.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/get_ctf_util_profit.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/data_clean/clean_choice_panel.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/data_clean/get_next_rrev.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/data_clean/panel_renw_clean.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/extract_model_estimates_cmdstan.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/get_c_latentparams.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/get_cp_pred.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/get_d_latentparams.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/get_d_pred.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/get_fit_cp.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/load_estimation_bootstrap_data.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/load_model_data.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/simulate_data/sim_generate_data_list.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/simulate_data/sim_generate_rf_data.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/._c1_get_rf_exhibits.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/._c2_get_param_tables.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/._c3_get_fitctf_exhibits.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/._config.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/._run_all.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/._run_simulated.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/._bootstrap_helpers.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/._ctf_table_helpers.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/._getX.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/functions/._helper.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c0_sum_stat.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c1_mh_regression.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c2_mh_viol.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c3_demand_elast.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c4_data_figures.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c5_selection_figures.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c6_estimate.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c7_model_fit.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/._sim_c8_ctf_run.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/._load_sim_data.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/._sim_helpers.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/._ctf_calibration.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/._ctf_clear_cache.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/._ctf_equi_k_find_equilibria.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/._ctf_equi_k_save_grid.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/._ctf_preload.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/._find_cycles.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/ctf/._get_ctf_util_profit.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/data_clean/._clean_choice_panel.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/data_clean/._get_next_rrev.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/data_clean/._panel_renw_clean.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/._extract_model_estimates_cmdstan.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/._get_c_latentparams.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/._get_cp_pred.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/._get_d_latentparams.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/._get_d_pred.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/._get_fit_cp.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/._load_estimation_bootstrap_data.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/functions/estimation/._load_model_data.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/simulate_data/._sim_generate_data_list.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/code/simulate/simulate_data/._sim_generate_rf_data.R
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/paper.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/format/packages.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/format/paper_setting.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s0_abstract.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s0_thanks.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s1_introduction.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s2_background.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s3_reduced_form.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s4_model.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s5_estimates.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s6_counterfactual.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/s7_conclusion.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/paper_app.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/sa_add_figs.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/sb_firm_pricing.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/sc_robust.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/._paper.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/format/._packages.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/format/._paper_setting.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s0_abstract.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s0_thanks.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s1_introduction.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s2_background.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s3_reduced_form.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s4_model.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s5_estimates.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s6_counterfactual.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/._s7_conclusion.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/._paper_app.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/._sa_add_figs.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/._sb_firm_pricing.tex
-/Users/florianoswald/actions-runner/_work/JPE-Jin-20210685/JPE-Jin-20210685/replication-package/__MACOSX/Yizhou Jin - jinvass26_replication_mar_29_2026/paper/text/appendix/._sc_robust.tex
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/c1_get_rf_exhibits.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/c2_get_param_tables.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/c3_get_fitctf_exhibits.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/config.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/run_all.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/run_simulated.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/functions/bootstrap_helpers.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/functions/ctf_table_helpers.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/functions/getX.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/functions/helper.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/fig_b3_override.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c0_sum_stat.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c1_mh_regression.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c2_mh_viol.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c3_demand_elast.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c4_data_figures.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c5_selection_figures.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c6_estimate.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c6b_estimate_robustness.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c6c_estimate_cost_mhhet.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c7_model_fit.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c7b_model_fit_mhhet.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c8_ctf_run.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c8b_ctf_robustness.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c8c_ctf_mhhet_learning.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/sim_c8d_ctf_appendix_robustness.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/tab_a12_horizon_rescale.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/load_sim_data.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/sim_helpers.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/ctf/ctf_calibration.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/ctf/ctf_clear_cache.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/ctf/ctf_equi_k_find_equilibria.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/ctf/ctf_equi_k_save_grid.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/ctf/ctf_preload.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/ctf/find_cycles.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/ctf/get_ctf_util_profit.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/data_clean/clean_choice_panel.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/data_clean/get_next_rrev.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/data_clean/panel_renw_clean.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/estimation/extract_model_estimates_cmdstan.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/estimation/get_c_latentparams.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/estimation/get_cp_pred.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/estimation/get_d_latentparams.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/estimation/get_d_pred.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/estimation/get_fit_cp.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/estimation/load_estimation_bootstrap_data.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/functions/estimation/load_model_data.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/simulate_data/sim_generate_data_list.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/code/simulate/simulate_data/sim_generate_rf_data.R
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/paper/paper.tex
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/paper/format/packages.tex
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/paper/format/paper_setting.tex
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/paper/text/s0_abstract.tex
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/paper/text/s0_thanks.tex
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/paper/text/s1_introduction.tex
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/paper/text/s2_background.tex
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/paper/text/s3_reduced_form.tex
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/paper/text/s4_model.tex
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/paper/text/s5_estimates.tex
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/paper/text/s6_counterfactual.tex
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/paper/text/s7_conclusion.tex
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/paper/text/appendix/paper_app.tex
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/paper/text/appendix/sa_add_figs.tex
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/paper/text/appendix/sb_firm_pricing.tex
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20210685-2/replication-package/jinvass26_replication_may_19_2016/paper/text/appendix/sc_robust.tex
